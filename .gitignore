@@ -1,0 +1,16 @@
+# Private configuration, connection state, and locally licensed material.
+.env
+.env.*
+!.env.example
+.c2c.json
+.c2c/
+*.pem
+*.key
+private/
+local/
+downloads/
+voicebanks/
+
+# Local machine clutter.
+Thumbs.db
+.DS_Store
