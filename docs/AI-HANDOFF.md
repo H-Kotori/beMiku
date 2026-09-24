@@ -20,15 +20,15 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 - No music software inventory, voicebank selection, song language, genre, or final narrative is settled. No composition program has been built yet.
 - A licensed voicebank/editor request should follow a concrete phrase ready for testing.
 - Reuse licensing for our own eventual code and music remains open; third-party rights are separate.
-- Optional ChatGPT GPT-6 Pro consultation is not yet complete. Local connection preparation is done; ChatGPT sign-in and manual setup remain pending. Private setup details stay outside this repository. Do not make research dependent on this connection.
+- Optional ChatGPT 6 Pro consultation is connected and verified against this workspace and README, with project-only memory. Its focused review retained the provisional idea and narrowed the next test to one comparison. Private connection details and conversation state stay outside this repository.
 
 ## Verification status
 
 - Primary sources were checked on 2026-09-25; inaccessible original pages are identified alongside alternate official evidence.
 - Independent review checked the journal's source summaries and research/listening distinction; an unsupported attribution in the Luka bridge was removed.
 - Local verification passed: all 9 relative Markdown links resolve across 10 public candidate files; the credential/private-path pattern check found no matches; `git diff --check` passed.
-- The final publication check is that `HEAD` equals `origin/main` with a clean working tree after push.
+- First milestone published in commit `575c0dc`; verified `HEAD` equals `origin/main` and the working tree was clean after push. Local Git sign-in is working. The GitHub app's write API returned 403, so use authenticated local Git for publishing.
 
 ## Next step
 
-Follow the first journal's question through PinocchioP's *Because You're Here* and a contrasting work. Record the available evidence honestly; use audio timestamps only after actual listening. Follow the Luka connection when useful. Seek a less visible creator and another language/community soon, since the initial map favors familiar releases.
+Compare PinocchioP's *Because You're Here* with Hachi's Miku version of *DUNE*, using the versions linked in the journal. Ask whether an anniversary song needs to resolve tension into reassurance and belonging, or whether criticism or unresolved ambivalence could be central to the gift. Produce one short paired note with exact versions, evidence accessed, separate observations/interpretations, and whether the provisional invitation-to-create idea is supported, complicated, or untested. Do not predetermine either song's answer. Without audio access, keep this source-based and leave listening questions open. Defer Luka and broader-community exploration until after this pair; the familiar-producer comparison does not fulfill those goals.

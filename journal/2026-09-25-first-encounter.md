@@ -26,9 +26,12 @@ My provisional preference is for a birthday song that has room for the person st
 
 ## Next encounter
 
-- Study *Because You're Here* alongside a contrasting song in the [listening map](../listening/README.md). Start from [PinocchioP's video](https://www.youtube.com/watch?v=ygY2qObZv24), also linked as the theme song on the [official Magical Mirai 2020 page](https://magicalmirai.com/2020/tokyo/special_en.html). Establish the exact version and available evidence first.
-- Follow the *Double Lariat* connection into Luka when its original source and credits are verified.
-- Find a creator or listener who complicates the distance/closeness idea, especially outside the narrow source sample used today.
-- When audio can actually be assessed, record concrete moments rather than assigning emotions from titles or reputation.
+Compare *Because You're Here* with Hachi's Miku version of *DUNE*, using the [listening map's credits and sources](../listening/README.md). Start from [PinocchioP's video](https://www.youtube.com/watch?v=ygY2qObZv24), also linked on the [official Magical Mirai 2020 page](https://magicalmirai.com/2020/tokyo/special_en.html), and [Hachi's video](https://www.youtube.com/watch?v=AS4q9yaWJkI).
+
+The question: **Does an anniversary song need to resolve tension into reassurance and belonging, or could criticism or unresolved ambivalence be central to the gift?** Neither song has been assigned an answer in advance. A producer's preference for a nonhuman voice and a listener's feeling of personhood need not conflict, and neither establishes an acoustic feature without listening.
+
+The next session should produce one short paired note: identify the exact versions and evidence actually accessed; separate sourced statements, direct observations, and interpretations; then say whether the evidence supports, complicates, or leaves the tentative invitation-to-create idea untested. If audio cannot be assessed, keep the note explicitly source-based and leave the musical questions open. Only actual listening can supply audio timestamps and performance observations.
+
+After this comparison, return to the *Double Lariat* connection into Luka once its source and credits are verified, and seek a less visible creator or another language/community. This familiar-producer pair does not satisfy that broader exploration goal. The next step was narrowed after a ChatGPT 6 Pro review on the same date; that review is planning input, not new evidence about the songs.
 
 All linked pages were consulted on 2026-09-25. Japanese interview summaries are our English paraphrases, not quotations or published translations. No song lyrics have been reproduced.
