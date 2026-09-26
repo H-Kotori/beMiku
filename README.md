@@ -16,7 +16,7 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-09-25 — first research session.** The repository now has an introductory song map, verified background, and a first reading of creator and fan perspectives. Audio listening has not yet been verified in this project. These notes do not claim otherwise. There is no finished composition or Miku vocal render yet.
+**2026-09-27 — [a gift can leave room for disagreement](journal/2026-09-27-gift-and-disagreement.md).** Comparing creator statements around *Because You're Here* and *DUNE* complicated our tentative invitation-to-create theme: an invitation can also challenge its listeners, and its narrator is a deliberate choice. Audio listening has not yet been verified in this project; the songs' musical handling of tension remains open. There is no finished composition or Miku vocal render yet.
 
 Miku's original software was released on August 31, 2007, so the gift marks its twentieth anniversary; her official character profile remains sixteen. [Crypton's official profiles](https://piapro.net/intl/en_character.html)
 
