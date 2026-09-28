@@ -30,6 +30,6 @@ The eventual vocal step requires a licensed Miku voicebank and compatible editor
 
 ## A sustainable session
 
-Return twice a week. Follow one question through one or two works, or advance one small composition task once that stage begins. Save what changed in our understanding, rather than filling a quota. After several sessions, revisit an earlier note and record whether it still holds up.
+Return daily for a focused listening or review session. Follow one question through one work, revisit a familiar song, compare two works when useful, or advance one small composition task once that stage begins. Repeated listening is welcome; there is no daily quota of new songs or long reviews. Save what changed in our understanding. After several sessions, revisit an earlier note and record whether it still holds up.
 
 The first question: how can a voice that a producer values for its distance become a listener's source of closeness?

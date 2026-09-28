@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-09-27.
+Updated: 2026-09-29.
 
 ## Current focus
 
@@ -12,7 +12,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 - The provisional invitation-to-create idea now explicitly permits disagreement. Criticism and invitation need not be opposites; the narrator remains a choice to test.
 - Hachi's scene diagnosis is his perception, not verified cultural decline. Wada Takeaki disputes that framing. PinocchioP denies intending his song as an answer to *DUNE*. The note labels these Natalie statements as indexed excerpts because direct pages failed.
 - Existing foundations: official background, listening map, first journal, rights/contribution guidance, and roadmap toward original MIDI and a licensed Miku vocal.
-- Scheduled follow-up remains in the owning Codex task: Tuesdays and Saturdays, 20:00 Asia/Shanghai, through 2027-08-31. It is local app state, not installed by cloning the repository.
+- At the owner's request, changed the existing follow-up to daily at 20:00 Asia/Shanghai through 2027-08-31. Keep sessions small; revisits count and no daily quota of new songs or long reviews is required. The schedule is local app state in the owning Codex task, not installed by cloning the repository.
 
 ## Open decisions and limitations
 
@@ -24,7 +24,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Verification status
 
-- Started this session clean at `9095a62`, matching `origin/main`; a fast-forward pull reported already up to date.
+- The paired research note was published in `2273ced`; started the schedule update clean at that commit, matching `origin/main`. A fast-forward pull reported already up to date.
 - Release records and the Real Sound/Pia interview were directly retrieved on 2026-09-27. Original video access failed; no musical or visual observations are claimed. Natalie excerpts have explicit access limits.
 - Independent review found no actionable evidence or attribution issues. All 11 relative Markdown links resolve across 10 Markdown files; the credential/private-path pattern check passed across 11 public candidate files; `git diff --check` passed.
 - Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
