@@ -16,7 +16,7 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-09-29 — [our first real-song passage: 39](journal/2026-09-29-39-first-audio-passage.md).** We analyzed 32 seconds of a locally supplied Miku recording and read part of its accompanying LRC. The [controlled tool trial](experiments/whale-listen/README.md) established important limits: note estimates and waveform measurements support questions, while lyrics and listener interpretations need separate evidence. This is machine analysis, not verified perceptual listening or lyric recognition. There is no finished composition or Miku vocal render yet.
+**2026-09-29 — [Double Lariat: encouragement by example](journal/2026-09-29-double-lariat-and-permission.md).** Following a Luka song's influence on PinocchioP complicates our invitation-to-create idea: a work can help someone imagine making music without directly asking them to. This session used interviews and creator-posted text. The earlier [39 passage study](journal/2026-09-29-39-first-audio-passage.md) remains our first real-recording machine analysis, with the [tool's limits](experiments/whale-listen/README.md) documented. No verified perceptual listening, finished composition, or Miku vocal render is claimed.
 
 Miku's original software was released on August 31, 2007, so the gift marks its twentieth anniversary; her official character profile remains sixteen. [Crypton's official profiles](https://piapro.net/intl/en_character.html)
 
