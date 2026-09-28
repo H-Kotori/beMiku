@@ -14,3 +14,7 @@ voicebanks/
 # Local machine clutter.
 Thumbs.db
 .DS_Store
+
+# Local Python experiment caches.
+__pycache__/
+*.py[cod]

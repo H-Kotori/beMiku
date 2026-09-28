@@ -1,0 +1,65 @@
+{
+  "source_sha256": "74a396258115655fab50226a7529fcbaba724304b5a3a1c604657e225544daf9",
+  "source_lf_normalized_sha256": "e5de3dc6c604ae345ab5b3b3a5a08c8af5a700b9ea781931dcc4980ec945b697",
+  "python": "3.10.20",
+  "platform": "Windows",
+  "packages": {
+    "basic-pitch": "0.4.0",
+    "onnxruntime": "1.23.2",
+    "pretty-midi": "0.2.11",
+    "scipy": "1.15.3",
+    "librosa": "0.11.0",
+    "numpy": "2.2.6"
+  },
+  "model_file": "nmp.onnx",
+  "model_sha256": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec",
+  "audio_trial": {
+    "audio_file": "four-original-tones.wav",
+    "sample_rate": 22050,
+    "actual_duration_sec": 12.0,
+    "reported_duration_sec": 7.0,
+    "predicted_note_count": 4,
+    "matches_with_same_pitch_and_onset_within_150ms": [
+      {
+        "expected_pitch": 60,
+        "expected_start": 0.5,
+        "expected_end": 1.5,
+        "detected": true,
+        "predicted_start": 0.499,
+        "predicted_end": 1.544
+      },
+      {
+        "expected_pitch": 64,
+        "expected_start": 2.0,
+        "expected_end": 3.0,
+        "detected": true,
+        "predicted_start": 1.998,
+        "predicted_end": 3.043
+      },
+      {
+        "expected_pitch": 67,
+        "expected_start": 3.5,
+        "expected_end": 4.5,
+        "detected": true,
+        "predicted_start": 3.507,
+        "predicted_end": 4.53
+      },
+      {
+        "expected_pitch": 72,
+        "expected_start": 6.0,
+        "expected_end": 7.0,
+        "detected": true,
+        "predicted_start": 5.995,
+        "predicted_end": 7.039
+      }
+    ],
+    "unmatched_predictions": []
+  },
+  "mocked_inference_counterexample": {
+    "known_latest_note_end_sec": 10,
+    "reported_duration_sec": 4.0,
+    "false_silence_2_to_3_sec_reported": true,
+    "analysis_stdout": "\n==================================================\n  four-original-tones.wav\n  3 notes over 4.0s (0.1 min)\n==================================================\n\nPitch range: C4 (60) \u2014 G4 (67)\nMost common: C4 (1), E4 (1), G4 (1)\nVelocity: 80\u201380, avg 80\nNote duration: 1.000s\u201310.000s, avg 4.000s\n\nDensity (notes per 10s):\n    0\u2013 10s:   3 \u2588\u2588\u2588\n\nPitch map (avg per 15s):\n    0\u2013 15s: avg=64  [60\u201367]  n=3\n\nLongest silences:\n  2.0s \u2014 3.0s  (1.0s)\n\n"
+  },
+  "limitations": "Synthetic tones only. No lyrics, Miku recording, or full-mix accuracy assessed."
+}
