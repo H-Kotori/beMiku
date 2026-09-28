@@ -8,6 +8,8 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Last meaningful changes
 
+- Added `journal/2026-09-29-39-first-audio-passage.md`: first real-recording analysis, 00:40–01:12 of the owner's local *39* MP3, plus a limited reading of its LRC. The tentative creative idea is gratitude with hesitation still present.
+- The owner supplied a local MP3/LRC library and offered to obtain specific unavailable songs when needed. Its path is stored only in ignored `local/audio-library.json`; do not publish the library inventory or private paths. NCM files in the separate player-managed folder were not processed.
 - Reviewed whale-listen at `7b3e2c7` and ran a controlled Windows/ONNX trial. See `experiments/whale-listen/README.md`, reproducible probe, dependency snapshot, and recorded report.
 - Four original isolated pitches were recovered with onset errors up to 7 ms. The unmodified tool misreported a 12-second file as 7 seconds; a separate exact-note test proved false silence under overlap and a last-note duration error. Treat output as estimates; do not trust those summaries.
 - Added `journal/2026-09-27-gift-and-disagreement.md`, comparing creator statements around PinocchioP's *Because You're Here* and Hachi's Miku version of *DUNE*.
@@ -18,8 +20,8 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Open decisions and limitations
 
-- Song research still uses text and metadata. The audio trial used synthetic tones only; no Miku-song analysis, lyric recognition, perceptual listening, or vocal rendering has been verified.
-- The local whale-listen checkout and Python 3.10 environment live under ignored `local/`; rerun instructions are in the experiment README. No global skill or upstream patch was installed. Keep recordings and full transcriptions private. A first song file/path or creator-provided download was requested from the owner.
+- Real mixed-audio analysis now works, but *39*'s exact release/master and LRC wording/alignment remain unverified. No perceptual listening, automatic lyric recognition, or vocal rendering is claimed. Note estimates cannot identify Miku's part or establish emotion.
+- The local whale-listen checkout and Python 3.10 environment live under ignored `local/`; rerun instructions are in the experiment README. The private *39* runner is `local/analyze_39_passage.py`, with results under `local/audio-analysis/39-first-passage/`. No global skill or upstream patch was installed. Keep recordings, LRC text, and full transcriptions private.
 - No music software inventory, voicebank selection, song language, genre, or final narrative is settled. No composition program has been built yet.
 - A licensed voicebank/editor request should follow a concrete phrase ready for testing.
 - Reuse licensing for our own eventual code and music remains open; third-party rights are separate.
@@ -27,14 +29,15 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Verification status
 
-- Started the tool evaluation clean at `2255f77`, matching `origin/main`; a fast-forward pull reported already up to date.
+- Started the real-song trial clean at `a9a8d2d`, matching `origin/main`; a fast-forward pull reported already up to date.
 - Release records and the Real Sound/Pia interview were directly retrieved on 2026-09-27. Original video access failed; no musical or visual observations are claimed. Natalie excerpts have explicit access limits.
 - The audio conversion and deterministic summary counterexample both ran. Dependency consistency check passed for all 42 installed packages; the probe compiled. Source/model hashes and measured results are recorded in the experiment report.
-- Independent review caught a checkout-line-ending issue in the source hash guard; normalization fixed it and the probe rerun reproduced the results. All 15 relative links resolve across 11 Markdown files; the private-data pattern check passed for 15 public candidate files; `git diff --check` passed.
+- The *39* crop produced 343 estimated events. Four equal windows had 73/89/104/77 starts and RMS values within about 0.26 dB; these are mixed-signal measurements, not vocal or loudness judgments. MP3/LRC hashes were unchanged after processing. Official text sources verified work credits, not the local master or lyrics.
+- Independent review checked the measurements and evidence labels. All 16 relative links resolve across 12 Markdown files; the private-data pattern check passed for 16 public candidate files; library configuration and trial artifacts are ignored; `git diff --check` passed.
 - Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
 
 ## Next step
 
-If a local song or creator-provided download becomes available, analyze one short passage with the reviewed tool, exact version and timestamps. Label results machine-estimated audio evidence; confirm notes against listening feedback and use separate verified text for lyrics. Do not infer the vocalist or emotional meaning from note JSON. Until then, follow the first journal's *Double Lariat* connection into Megurine Luka: what did Agoaniki's work make possible for another creator? Verify original upload and credits, then write one bounded note. Broader exploration still needs a less visible creator and another language/community.
+Seek listener feedback on 00:40–01:12 of the local *39* version: check LRC alignment and identify arrangement/vocal changes behind the measurements. Keep feedback distinct from agent inference. Continue the *Double Lariat*/Luka research connection independently, requesting an ordinary playable download from the owner when a specific unavailable song is needed. Broader exploration still needs a less visible creator and another language/community.
 
-For the outstanding listening gate, use the exact original uploads in the latest note with actual audio access, or request owner listening feedback. Record timestamps for a change in address and the ending; distinguish sound from captions/visuals and owner reports from agent observations. Do not declare the musical-direction gate complete from text research. Keep the roadmap's early-2027 sketch milestone.
+For the outstanding listening gate, use the exact recording/version identified in the relevant journal entry with actual audio access, or request owner listening feedback. Record timestamps for a change in address and the ending; distinguish sound from captions/visuals and owner reports from agent observations. Do not declare the musical-direction gate complete from text research or unvalidated note estimates. Keep the roadmap's early-2027 sketch milestone.

@@ -16,7 +16,7 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-09-29 — [a first controlled audio-analysis trial](experiments/whale-listen/README.md).** After reviewing whale-listen, we ran it locally on four original test tones. It recovered their pitches and exposed two errors in its duration and silence summaries. Estimated note data is now a possible research aid; no Miku recording or lyric recognition has been tested. Our [latest song comparison](journal/2026-09-27-gift-and-disagreement.md) remains based on creator statements. There is no finished composition or Miku vocal render yet.
+**2026-09-29 — [our first real-song passage: 39](journal/2026-09-29-39-first-audio-passage.md).** We analyzed 32 seconds of a locally supplied Miku recording and read part of its accompanying LRC. The [controlled tool trial](experiments/whale-listen/README.md) established important limits: note estimates and waveform measurements support questions, while lyrics and listener interpretations need separate evidence. This is machine analysis, not verified perceptual listening or lyric recognition. There is no finished composition or Miku vocal render yet.
 
 Miku's original software was released on August 31, 2007, so the gift marks its twentieth anniversary; her official character profile remains sixteen. [Crypton's official profiles](https://piapro.net/intl/en_character.html)
 
