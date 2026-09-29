@@ -16,6 +16,8 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
+**2026-09-30 — [MikuFiesta: an invitation with a place behind it](journal/2026-09-30-mikufiesta-and-belonging.md).** AlexTrip Sands' account connects an accessible introduction to Miku with retaining his own musical background. His story of fans including him remotely gives our future writing a concrete question: who is absent from the celebration, and how can they be included? This is creator and listener text research; audio remains unassessed.
+
 **2026-09-29 — [Local audio inference: a failed listening gate](journal/2026-09-29-local-listener-diagnostic.md).** The new [diagnostic prototype](experiments/audio-listener/README.md) passes actual audio to a local Qwen2-Audio model and records speaker output with bounded shutdown. The model invented sounds and missed substantial silence in two controlled trials, so its musical descriptions remain unverified. At the owner's direction, browser integration is deferred.
 
 **2026-09-29 — [Double Lariat: encouragement by example](journal/2026-09-29-double-lariat-and-permission.md).** Following a Luka song's influence on PinocchioP complicates our invitation-to-create idea: a work can help someone imagine making music without directly asking them to. This session used interviews and creator-posted text. The earlier [39 passage study](journal/2026-09-29-39-first-audio-passage.md) remains our first real-recording machine analysis, with the [tool's limits](experiments/whale-listen/README.md) documented. No verified perceptual listening, finished composition, or Miku vocal render is claimed.
