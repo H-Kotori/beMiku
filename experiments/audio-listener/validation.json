@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-29",
+  "kind": "reviewed_diagnostic_summary",
+  "model": "Qwen/Qwen2-Audio-7B-Instruct",
+  "revision": "0a095220c30b7b31434169c3086508ef3ea5bf0a",
+  "model_files_verified": 14,
+  "download_bytes": 16806500494,
+  "runtime": {
+    "python": "3.11.15",
+    "torch": "2.12.1+cu126",
+    "transformers": "4.57.6",
+    "cuda": "12.6",
+    "bf16": true,
+    "attention": "sdpa",
+    "generation": {"do_sample": false, "max_new_tokens": 384}
+  },
+  "real_processor_check": {
+    "waveforms_produce_distinct_features": true,
+    "input_features_shape": [1, 128, 3000],
+    "feature_attention_mask_shape": [1, 3000]
+  },
+  "runs": [
+    {
+      "name": "initial",
+      "trials": 5,
+      "clips": 7,
+      "all_inference_jobs_complete": true,
+      "all_sources_unchanged": true,
+      "model_load_seconds": 15.172,
+      "peak_cuda_allocated_gib": 16.259,
+      "median_clip_inference_seconds": 2.985,
+      "control_result": "failed"
+    },
+    {
+      "name": "simpler_prompt_retest",
+      "trials": 8,
+      "clips": 10,
+      "all_inference_jobs_complete": true,
+      "all_sources_unchanged": true,
+      "model_load_seconds": 13.781,
+      "peak_cuda_allocated_gib": 16.218,
+      "median_clip_inference_seconds": 1.976,
+      "control_result": "failed"
+    }
+  ],
+  "failed_controls": [
+    "Invented sounds in digital silence.",
+    "Missed known rests and supplied unsupported source labels or timing for authored tones.",
+    "Claimed continuous music and an unsupported speaking voice over a partly zeroed recording."
+  ],
+  "decision": "Diagnostic prototype only; browser integration deferred.",
+  "capture_hardware": {
+    "input": "authored stereo tone sequence; no browser playback",
+    "format": "PCM16",
+    "sample_rate": 48000,
+    "channels": 2,
+    "frames": 590848,
+    "duration_seconds": 12.309333,
+    "detected_tones": [
+      {"channel": "left", "frequency_hz": 440, "start_seconds": 1.09, "end_seconds": 3.09},
+      {"channel": "right", "frequency_hz": 660, "start_seconds": 4.09, "end_seconds": 6.09},
+      {"channel": "left", "frequency_hz": 880, "start_seconds": 7.09, "end_seconds": 9.09}
+    ],
+    "trailing_low_signal_seconds": 3.219333,
+    "finish_to_report_seconds": 0.032,
+    "status": "partial",
+    "error_flags": ["audio_clock_unavailable", "missing_audio_packets"],
+    "native_clock_blocks": 576,
+    "total_blocks": 577,
+    "clock_gaps": 1,
+    "clock_jitter_tolerance_seconds": 0.005,
+    "mapped_intervals": 5,
+    "mapped_file_seconds": 10.032979,
+    "coverage_basis": "Synthetic supervisor playback clock, not browser observations.",
+    "whole_recording_correlation_after_constant_alignment": 0.8986,
+    "individual_tone_correlation_after_separate_alignment_range": [0.99976, 0.99991],
+    "limitations": "Startup timing uncertainty remains explicit; no bit-perfect fidelity or exact absolute synchronization claim."
+  },
+  "capture_abandoned_control": {
+    "stdin_held_open": true,
+    "observations": 0,
+    "audio_packets": 0,
+    "frames": 0,
+    "lease_seconds": 60,
+    "capture_elapsed_seconds": 60.000,
+    "ready_to_report_seconds": 60.016,
+    "stop_reason": "lease_expired",
+    "status": "partial",
+    "within_61_seconds": true
+  },
+  "behavioral_tests": {"passed": 51, "failed": 0, "python": "3.11.15"},
+  "model_approved_for_listening": false,
+  "raw_audio_and_detailed_reports": "retained in ignored local storage"
+}

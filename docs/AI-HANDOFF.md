@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-09-29.
+Updated: 2026-09-30.
 
 ## Current focus
 
@@ -8,37 +8,42 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Last meaningful changes
 
+- Added [the local audio diagnostic](../experiments/audio-listener/README.md) and [failed listening-gate assessment](../journal/2026-09-29-local-listener-diagnostic.md). Actual waveforms reached Qwen2-Audio-7B-Instruct locally, but two blinded trials invented sounds and missed substantial silence. **Model usefulness failed. The owner chose to finish the diagnostic and defer browser integration and additional model trials.**
+- The diagnostic has `devices`, bounded `capture`, and offline `analyze` commands. WASAPI capture accepts stdin observations/finish; only consistent observation-bracketed intervals enter session analysis. It records missing data separately from silence. All analysis reports retain the failed model-validation label.
 - Added `journal/2026-09-29-double-lariat-and-permission.md`: a Luka work's influence on PinocchioP, Agoaniki's account of his own voice through Vocaloid, and a creator-text reading. New hypothesis: encourage by concrete example instead of automatically writing an explicit invitation.
-- Added `journal/2026-09-29-39-first-audio-passage.md`: first real-recording analysis, 00:40–01:12 of the owner's local *39* MP3, plus a limited reading of its LRC. The tentative creative idea is gratitude with hesitation still present.
-- The owner supplied a local MP3/LRC library and offered to obtain specific unavailable songs when needed. Its path is stored only in ignored `local/audio-library.json`; do not publish the library inventory or private paths. NCM files in the separate player-managed folder were not processed.
-- Reviewed whale-listen at `7b3e2c7` and ran a controlled Windows/ONNX trial. See `experiments/whale-listen/README.md`, reproducible probe, dependency snapshot, and recorded report.
-- Four original isolated pitches were recovered with onset errors up to 7 ms. The unmodified tool misreported a 12-second file as 7 seconds; a separate exact-note test proved false silence under overlap and a last-note duration error. Treat output as estimates; do not trust those summaries.
-- Added `journal/2026-09-27-gift-and-disagreement.md`, comparing creator statements around PinocchioP's *Because You're Here* and Hachi's Miku version of *DUNE*.
-- The provisional invitation-to-create idea now explicitly permits disagreement. Criticism and invitation need not be opposites; the narrator remains a choice to test.
-- Existing foundations: official background, listening map, first journal, rights/contribution guidance, and roadmap toward original MIDI and a licensed Miku vocal.
-- At the owner's request, changed the existing follow-up to daily at 20:00 Asia/Shanghai through 2027-08-31. Keep sessions small; revisits count and no daily quota of new songs or long reviews is required. The schedule is local app state in the owning Codex task, not installed by cloning the repository.
+- Added `journal/2026-09-29-39-first-audio-passage.md`: first real-recording note analysis, 00:40–01:12 of the owner's local *39* MP3, plus a limited reading of its LRC. The tentative creative idea is gratitude with hesitation still present. The new model trial establishes no additional musical facts.
+- The owner supplied a local MP3/LRC library and offered to obtain specific unavailable songs when needed. Its path is stored only in ignored `local/audio-library.json`; do not publish the inventory or private paths. NCM files in the separate player-managed folder were not processed.
+- Reviewed whale-listen at `7b3e2c7` with Windows/ONNX controls. It recovered isolated pitches but misreported duration and silence under overlapping notes. See `experiments/whale-listen/README.md`; its outputs remain estimates, not verified vocal or emotional descriptions.
+- The provisional invitation-to-create idea permits disagreement; criticism and invitation need not be opposites. Existing background, listening map, rights guidance, and roadmap remain the foundation.
+- The existing follow-up runs daily at 20:00 Asia/Shanghai through 2027-08-31. Keep sessions small; revisits count and there is no quota of new songs or long reviews. This schedule is local app state in the owning Codex task, not installed by cloning the repository.
+
+## Local runtime and evidence
+
+- Separate Python 3.11 runtime: `local/audio-listener-venv/`. Verified model: `local/models/qwen2-audio/`, revision `0a095220c30b7b31434169c3086508ef3ea5bf0a`. BF16/SDPA on the local GPU worked. Reproduction instructions and pinned dependencies are public; weights and detailed reports are ignored.
+- Initial results: `local/audio-listener-probe-initial/`. Retest: `local/audio-listener-probe-retest/`. Seventeen clip inferences completed with source hashes unchanged; measured peak CUDA allocation was 16.259 GiB. Raw generated descriptions remain private and unverified. Silence detection in code would be a measurement, not a model-understanding pass.
+- Standalone hardware results: `local/audio-listener-hardware-standalone/`. Authored stereo tones were recovered at 48 kHz PCM16. The result stayed partial because of startup clock uncertainty; five mapped spans totaled about 10.033 seconds. Explicit finish took 32 ms. The no-observation lease reported shutdown at 60.016 seconds with zero packets, without manufacturing silence.
+- The whale-listen checkout and Python 3.10 environment under `local/` are unchanged. Private *39* runner: `local/analyze_39_passage.py`; crop/results: `local/audio-analysis/39-first-passage/`. Keep recordings, LRC text, transcriptions, and machine configuration private.
 
 ## Open decisions and limitations
 
-- Real mixed-audio analysis now works, but *39*'s exact release/master and LRC wording/alignment remain unverified. No perceptual listening, automatic lyric recognition, or vocal rendering is claimed. Note estimates cannot identify Miku's part or establish emotion.
-- *Double Lariat* has no matching playable local MP3/LRC. Creator reference: `https://piapro.jp/t/M34f`; original work `nm6049209`. A request for Agoaniki's Luka vocal version is pending with the owner as of 2026-09-29; avoid duplicate requests. Distinguish karaoke/remakes/live versions and verify the acquired file before assigning timestamps. Piapro text was read; playback/download not verified.
-- The local whale-listen checkout and Python 3.10 environment live under ignored `local/`; rerun instructions are in the experiment README. The private *39* runner is `local/analyze_39_passage.py`, with results under `local/audio-analysis/39-first-passage/`. No global skill or upstream patch was installed. Keep recordings, LRC text, and full transcriptions private.
-- No music software inventory, voicebank selection, song language, genre, or final narrative is settled. No composition program has been built yet.
-- A licensed voicebank/editor request should follow a concrete phrase ready for testing.
+- *39*'s exact release/master and LRC wording/alignment remain unverified. Its note estimates cannot identify Miku's part or establish emotion. Codex received model text estimates, not direct audio input; no verified perceptual listening or automatic lyric recognition is claimed.
+- No browser playback orchestration was implemented or tested. Capture was exercised with authored tones, not a browser song. Sparse playback observations cannot exclude every interruption between them; the output mix includes other applications. Device-clock jitter under 5 ms is unresolved, and absolute synchronization is approximate.
+- *Double Lariat* has no matching playable local MP3/LRC. Creator reference: `https://piapro.jp/t/M34f`; original work `nm6049209`. A request for Agoaniki's Luka vocal version is pending with the owner as of 2026-09-29; avoid duplicate requests. Distinguish karaoke/remakes/live versions before assigning timestamps. Piapro text was read; playback/download not verified.
+- No music software inventory, voicebank selection, song language, genre, or final narrative is settled. No composition program or vocal render exists. Request a licensed editor/voicebank when a concrete original phrase is ready for testing.
 - Reuse licensing for our own eventual code and music remains open; third-party rights are separate.
-- Optional ChatGPT 6 Pro consultation was verified against this workspace with project-only memory on 2026-09-25; not rechecked or used this session. Private connection and conversation state stay outside this repository.
+- Optional ChatGPT 6 Pro consultation was verified against beMiku with project-only memory on 2026-09-25; not rechecked or used this session. Private connection state stays outside the repository.
 
 ## Verification status
 
-- Started this session clean at `7a53d81`, matching `origin/main`; a fast-forward pull reported already up to date.
-- Read Yamaha, ASCII interview pages 2/4 and 4/4, and creator Piapro text on 2026-09-29. Agoaniki's 2009-02-05 announcement was indexed-only; Piapro displays 2009-02-12. Do not conflate those dates or claim audio access.
-- The audio conversion and deterministic summary counterexample both ran. Dependency consistency check passed for all 42 installed packages; the probe compiled. Source/model hashes and measured results are recorded in the experiment report.
-- The *39* crop produced 343 estimated events. Four equal windows had 73/89/104/77 starts and RMS values within about 0.26 dB; these are mixed-signal measurements, not vocal or loudness judgments. MP3/LRC hashes were unchanged after processing. Official text sources verified work credits, not the local master or lyrics.
-- Independent review verified source paraphrases, evidence labels, and date distinctions. All 18 relative links resolve across 13 Markdown files; the private-data pattern check passed for 17 public candidate files; `git diff --check` passed.
-- Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
+- This implementation began clean at `e0f6b7a` on `codex/makeCodexHearSongs`, matching `origin/main`.
+- The audio listener's behavioral suite passed 51 tests in the isolated Python 3.11 runtime. Real hardware exposed COM-apartment and device-clock jitter issues; both received fixes and regression coverage. All 48 locked packages passed dependency consistency checks.
+- Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
+- Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
 
 ## Next step
 
-If *Double Lariat* audio arrives, identify the version and inspect one passage against the creator's text. *39* listener feedback on 00:40–01:12 remains useful for LRC alignment and arrangement/vocal changes. Independently, next explore AlexTrip Sands' *MikuFiesta*: how does a creator address a community beyond the Japanese works studied so far? Verify language, credits, and creator context. Seek a less visible creator separately; a contest winner alone does not meet that goal.
+Keep browser integration deferred as requested. A future local model would need to pass blinded controls before automated listening becomes useful; do not silently resume model downloads or reinterpret this diagnostic as a success. Owner feedback on the exact *39* passage remains useful for arrangement/vocal changes and LRC alignment.
 
-For the outstanding listening gate, use the exact recording/version identified in the relevant journal entry with actual audio access, or request owner listening feedback. Record timestamps for a change in address and the ending; distinguish sound from captions/visuals and owner reports from agent observations. Do not declare the musical-direction gate complete from text research or unvalidated note estimates. Keep the roadmap's early-2027 sketch milestone.
+If *Double Lariat* audio arrives, identify its version and retain the current evidence limits. Independently, next explore AlexTrip Sands' *MikuFiesta*: verify language, credits, and creator context beyond the Japanese works studied so far. Seek a less visible creator separately; a contest winner alone does not meet that goal.
+
+For the roadmap's outstanding listening gate, record timestamps for a change in address and the ending using validated audio-derived evidence or attributed owner listening feedback. Distinguish sound from captions/visuals. Do not close the musical-direction gate from text research, unvalidated note estimates, or the failed audio model. Keep the early-2027 sketch milestone.
