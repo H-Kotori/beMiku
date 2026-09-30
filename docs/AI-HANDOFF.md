@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-09-30.
+Updated: 2026-10-01.
 
 ## Current focus
 
@@ -8,7 +8,8 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Last meaningful changes
 
-- Added [MikuFiesta and belonging](../journal/2026-09-30-mikufiesta-and-belonging.md): official Spanish-language identification, AlexTrip Sands' account of retaining his style while introducing Miku, one attributed reader response, and fans including the absent creator remotely. New writing prompt: name an absent addressee and a concrete act of welcome. Text research only; no lyric or audio assessment this session.
+- Added [The Sound Of Me and confidence](../journal/2026-10-01-the-sound-of-me-and-confidence.md): Hiyimi's November 9, 2019 YouTube upload identified through indexed creator metadata; English lyrics read, no audio assessed. Our reading pairs a self-assured narrator with participatory expression. One fan recommendation is labeled with the commenter's disclosed friendship; no audience-size claim is made.
+- Added [MikuFiesta and belonging](../journal/2026-09-30-mikufiesta-and-belonging.md): official Spanish-language identification, AlexTrip Sands' account of retaining his style while introducing Miku, one attributed reader response, and fans including the absent creator remotely. New writing prompt: name an absent addressee and a concrete act of welcome. No lyrics or audio were assessed in that September 30 study.
 - Added [the local audio diagnostic](../experiments/audio-listener/README.md) and [failed listening-gate assessment](../journal/2026-09-29-local-listener-diagnostic.md). Actual waveforms reached Qwen2-Audio-7B-Instruct locally, but two blinded trials invented sounds and missed substantial silence. **Model usefulness failed. The owner chose to finish the diagnostic and defer browser integration and additional model trials.**
 - The diagnostic has `devices`, bounded `capture`, and offline `analyze` commands. WASAPI capture accepts stdin observations/finish; only consistent observation-bracketed intervals enter session analysis. It records missing data separately from silence. All analysis reports retain the failed model-validation label.
 - Added `journal/2026-09-29-double-lariat-and-permission.md`: a Luka work's influence on PinocchioP, Agoaniki's account of his own voice through Vocaloid, and a creator-text reading. New hypothesis: encourage by concrete example instead of automatically writing an explicit invitation.
@@ -36,8 +37,8 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Verification status
 
-- The September 30 research session began clean at `8220b0f` on `codex/makeCodexHearSongs`; switched to `main` and safely fast-forwarded it to the same published commit. Only the new journal, README, and this handoff are in scope; the diagnostic code is unchanged.
-- This documentation session passed independent primary-source review, 33 relative-link checks across 16 Markdown files, a private-data pattern scan of the three changed files, and `git diff --check`. No code tests were rerun for these prose changes; the implementation results below are from the prior diagnostic session.
+- The October 1 research session began clean on `main` at `66a69f7`; fetching confirmed it matched `origin/main`. Only the new journal, README, and this handoff are in scope; the diagnostic code is unchanged.
+- Documentation checks: 36 relative links resolve across 17 Markdown files; the three changed files passed a private-data pattern scan and `git diff --check`. No code tests were rerun for these prose changes; the implementation results below are from the prior diagnostic session.
 - The audio listener's behavioral suite passed 51 tests in the isolated Python 3.11 runtime. Real hardware exposed COM-apartment and device-clock jitter issues; both received fixes and regression coverage. All 48 locked packages passed dependency consistency checks.
 - Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
 - Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
@@ -46,6 +47,8 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 Keep browser integration deferred as requested. A future local model would need to pass blinded controls before automated listening becomes useful; do not silently resume model downloads or reinterpret this diagnostic as a success. Owner feedback on the exact *39* passage remains useful for arrangement/vocal changes and LRC alignment.
 
-If *Double Lariat* audio arrives, identify its version and retain the current evidence limits. No matching ordinary *MikuFiesta* file was found either; its official contest video is linked in the new journal for version-specific owner feedback. No additional download request was sent. Next follow AlexTrip Sands' peer recommendation of Hiyimi's *The Sound of Me*: verify the creator upload and context. Do not equate a peer recommendation with evidence of a small audience; exploration beyond prominent winners is still needed.
+Next make a small original lyric exercise from the last two notes: fix one concrete act of welcome and an addressee, then compare tentative and assured voices in two brief treatments. This is exploratory writing, not a settled musical direction or song language. No borrowed phrases, imagery, or melody; preserve the early-2027 MIDI milestone.
+
+If *Double Lariat* audio arrives, identify its version and retain the current evidence limits. It still had no matching ordinary file on October 1, nor did *The Sound Of Me*. Creator/official reference videos for the latter and *MikuFiesta* are linked in their journals for version-specific owner feedback. No additional download request was sent. Do not retry unavailable pages every day without a new reason, and do not infer current popularity from cached counts.
 
 For the roadmap's outstanding listening gate, record timestamps for a change in address and the ending using validated audio-derived evidence or attributed owner listening feedback. Distinguish sound from captions/visuals. Do not close the musical-direction gate from text research, unvalidated note estimates, or the failed audio model. Keep the early-2027 sketch milestone.

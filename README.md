@@ -16,7 +16,7 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-09-30 — [MikuFiesta: an invitation with a place behind it](journal/2026-09-30-mikufiesta-and-belonging.md).** AlexTrip Sands' account connects an accessible introduction to Miku with retaining his own musical background. His story of fans including him remotely gives our future writing a concrete question: who is absent from the celebration, and how can they be included? This is creator and listener text research; audio remains unassessed.
+**2026-10-01 — [The Sound Of Me: confidence and participation](journal/2026-10-01-the-sound-of-me-and-confidence.md).** Following a peer recommendation led to Hiyimi's creator-posted lyrics. Our reading offers a counterexample to making Miku hesitant by default: confidence can coexist with inviting another person's expression. Next, test tentative and assured voices in a small original lyric exercise. Audio remains unassessed.
 
 **2026-09-29 — [Local audio inference: a failed listening gate](journal/2026-09-29-local-listener-diagnostic.md).** The new [diagnostic prototype](experiments/audio-listener/README.md) passes actual audio to a local Qwen2-Audio model and records speaker output with bounded shutdown. The model invented sounds and missed substantial silence in two controlled trials, so its musical descriptions remain unverified. At the owner's direction, browser integration is deferred.
 
