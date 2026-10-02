@@ -16,7 +16,7 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-10-02 — [First original lyric exercise: a cup with your name](sketches/lyrics/2026-10-02-cup-with-your-name.md).** Two four-line Japanese drafts test a tentative and an assured welcome, with English glosses and a comparison of what each asks of the listener. These are words only; no melody, MIDI, or vocal render exists. The next revision will keep the confident voice while making participation optional.
+**2026-10-03 — [First original lyric exercise: a cup with your name](sketches/lyrics/2026-10-02-cup-with-your-name.md).** Two four-line Japanese drafts test a tentative and an assured welcome, with English glosses and a comparison of what each asks of the listener. A third version now makes joining the toast optional while keeping the host's welcoming action. These are words only; no melody, MIDI, or vocal render exists.
 
 **2026-09-29 — [Local audio inference: a failed listening gate](journal/2026-09-29-local-listener-diagnostic.md).** The new [diagnostic prototype](experiments/audio-listener/README.md) passes actual audio to a local Qwen2-Audio model and records speaker output with bounded shutdown. The model invented sounds and missed substantial silence in two controlled trials, so its musical descriptions remain unverified. At the owner's direction, browser integration is deferred.
 

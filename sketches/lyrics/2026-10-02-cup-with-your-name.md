@@ -1,6 +1,6 @@
 # A cup with your name — lyric exercise 01
 
-Date: **2026-10-02**. Version: **0.1**. Original text drafted by Codex for beMiku. **Words only: no melody, MIDI, recording, or Miku vocal render.** Japanese is the working language of this exercise; the final song language remains open. English glosses explain the sense rather than supplying singable translations.
+Started: **2026-10-02**. Revised: **2026-10-03**. Version: **0.2**. Original text drafted by Codex for beMiku. **Words only: no melody, MIDI, recording, or Miku vocal render.** Japanese is the working language of this exercise; the final song language remains open. English glosses explain the sense rather than supplying singable translations. A and B below preserve the October 2 alternatives.
 
 ## Keep the action fixed
 
@@ -42,8 +42,24 @@ Shared opening readings: **きみのなまえを / こっぷにかいた**. A co
 
 Manual mora counts are **7 / 7 / 8 / 7** for A and **7 / 7 / 8 / 8** for B. The small っ counts; the combined じょ counts once. These counts prepare later phrasing work. They do not specify rhythm, pitch accent, note lengths, or successful voicebank pronunciation. The last-line difference must be handled explicitly if both versions are later compared over one melody.
 
-## Provisional judgment and next revision
+## October 2 judgment
 
 I prefer B's concrete move into the friend's room, while A better preserves their freedom not to answer. Keep both for now. Next revise only B's closing couplet so participation becomes an offer the friend can accept or decline; retain the named cup and the desk. Check whether the revised fragment still feels assured.
 
 The text could currently be sung by a human host as well. It has not yet earned a specific reason to use Miku's voice, and no musical direction is selected. Later phrasing and listening must address that question. The [roadmap's listening requirement](../../docs/ROADMAP.md) remains open; this exercise does not substitute for it.
+
+## October 3 revision — C: an assured offer
+
+> 君の名前を<br>
+> コップに書いた
+>
+> そっちの机で<br>
+> よければ乾杯
+
+**Sense:** I wrote your name on a cup. If you'd like, raise a toast at your desk over there.
+
+Only B's closing couplet changes. The host has already made room for the friend; joining the toast is now conditional on the friend's willingness. I prefer C for this particular scene. Its confidence lies in the completed gesture, rather than knowing how the friend will respond. That is an editorial choice for this fragment, not a rule that every Miku narrator must be accommodating.
+
+The closing readings are **そっちのつくえで / よければかんぱい**, retaining B's **7 / 7 / 8 / 8** mora pattern. Equal counts do not guarantee equal phrasing. The stanza break separates the completed writing action from the invitation at the friend's desk; without that boundary, the location could attach to the earlier action. A separate Japanese/editorial review checked the sense, gloss, and counts; no performance was tested.
+
+Pause this exercise at C before expanding it. A and B remain useful counterexamples, and the reason for Miku's voice is still unresolved. A future comparison with a more direct narrator should test whether our concern about pressure has made this voice too cautious.

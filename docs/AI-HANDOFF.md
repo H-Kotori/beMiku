@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-10-02.
+Updated: 2026-10-03.
 
 ## Current focus
 
@@ -8,7 +8,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Last meaningful changes
 
-- Added [lyric exercise 01](../sketches/lyrics/2026-10-02-cup-with-your-name.md): two original four-line Japanese fragments with English glosses, holding a named paper cup and absent friend fixed. A hopes the toast reaches them; B makes their desk part of the gathering. Provisional preference: B's concreteness with A's freedom not to answer. No melody, MIDI, or vocal render; Japanese is an exploratory choice.
+- Revised [lyric exercise 01](../sketches/lyrics/2026-10-02-cup-with-your-name.md) to v0.2: preserves October 2's A/B and adds October 3's C. Only the assured closing couplet changes to an optional toast at the friend's desk; the completed welcoming action stays fixed. C is the provisional text preference, with a stanza break clarifying the location. No melody, MIDI, or vocal render; Japanese is an exploratory choice.
 - Added [The Sound Of Me and confidence](../journal/2026-10-01-the-sound-of-me-and-confidence.md): Hiyimi's November 9, 2019 YouTube upload identified through indexed creator metadata; English lyrics read, no audio assessed. Our reading pairs a self-assured narrator with participatory expression. One fan recommendation is labeled with the commenter's disclosed friendship; no audience-size claim is made.
 - Added [MikuFiesta and belonging](../journal/2026-09-30-mikufiesta-and-belonging.md): official Spanish-language identification, AlexTrip Sands' account of retaining his style while introducing Miku, one attributed reader response, and fans including the absent creator remotely. New writing prompt: name an absent addressee and a concrete act of welcome. No lyrics or audio were assessed in that September 30 study.
 - Added [the local audio diagnostic](../experiments/audio-listener/README.md) and [failed listening-gate assessment](../journal/2026-09-29-local-listener-diagnostic.md). Actual waveforms reached Qwen2-Audio-7B-Instruct locally, but two blinded trials invented sounds and missed substantial silence. **Model usefulness failed. The owner chose to finish the diagnostic and defer browser integration and additional model trials.**
@@ -39,8 +39,9 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Verification status
 
-- The October 2 writing session began clean on `main` at `5f39d1a`; fetching confirmed it matched `origin/main`. Only the new lyric exercise, README, and this handoff are in scope; the diagnostic code is unchanged.
-- The lyric exercise received a separate Japanese/editorial review; glosses and manual mora counts were checked, and one directional particle was clarified. Forty relative links resolve across 18 Markdown files. The three public changes passed a private-data pattern scan and `git diff --check`; no code tests apply to these text changes. The implementation checks below belong to the prior diagnostic session.
+- The October 3 writing session began clean on `main` at `36bad6c`; fetching confirmed it matched `origin/main`. Only the existing lyric exercise, README, and this handoff are in scope; the diagnostic code is unchanged.
+- C received a separate Japanese/editorial review: the invitation, English gloss, and 7/7/8/8 mora counts were checked. A stanza break addresses possible backward attachment of the desk phrase. No performance was tested. The implementation checks below belong to the prior diagnostic session.
+- Documentation checks: 40 relative links resolve across 18 Markdown files; the three changed files passed a private-data pattern scan and `git diff --check`. No code changed or code tests were needed.
 - The audio listener's behavioral suite passed 51 tests in the isolated Python 3.11 runtime. Real hardware exposed COM-apartment and device-clock jitter issues; both received fixes and regression coverage. All 48 locked packages passed dependency consistency checks.
 - Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
 - Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
@@ -49,7 +50,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 Keep browser integration deferred as requested. A future local model would need to pass blinded controls before automated listening becomes useful; do not silently resume model downloads or reinterpret this diagnostic as a success. Owner feedback on the exact *39* passage remains useful for arrangement/vocal changes and LRC alignment.
 
-Next revise only lyric exercise 01's assured closing couplet: keep the named cup and the friend's desk, but offer participation instead of deciding it for them. Preserve A and B as dated alternatives. This is exploratory writing, not a settled musical direction; its human-host scene still needs a reason for Miku's voice. Keep the early-2027 MIDI milestone.
+Pause lyric exercise 01 at C and return to a Japanese creator's work before expanding it. Next candidate: ryo's *こっち向いて Baby*, already identified in the ordinary local library. Verify the exact local version and primary credits, then ask whether a direct request for attention can be playful rather than unwelcoming. Do not assume the answer from its title or treat source text as listening. The sketch's human-host scene still needs a reason for Miku's voice; keep the early-2027 MIDI milestone.
 
 If *Double Lariat* audio arrives, identify its version and retain the current evidence limits. It still had no matching ordinary file on October 1, nor did *The Sound Of Me*. Creator/official reference videos for the latter and *MikuFiesta* are linked in their journals for version-specific owner feedback. No additional download request was sent. Do not retry unavailable pages every day without a new reason, and do not infer current popularity from cached counts.
 
