@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-10-03.
+Updated: 2026-10-04.
 
 ## Current focus
 
@@ -8,6 +8,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Last meaningful changes
 
+- Added [こっち向いて Baby and second thoughts](../journal/2026-10-04-kocchi-muite-baby-and-second-thoughts.md): verified ryo's lyrics/music/arrangement credits and July 14, 2010 single release. Read the local LRC; its narrator's demands coexist with vulnerability and retreat. No audio assessed or creator intent established. Track-1 tags match the single listing, but the exact master and LRC alignment remain unverified; private identification notes are in `local/audio-analysis/kocchi-muite-baby/identification.json`.
 - Revised [lyric exercise 01](../sketches/lyrics/2026-10-02-cup-with-your-name.md) to v0.2: preserves October 2's A/B and adds October 3's C. Only the assured closing couplet changes to an optional toast at the friend's desk; the completed welcoming action stays fixed. C is the provisional text preference, with a stanza break clarifying the location. No melody, MIDI, or vocal render; Japanese is an exploratory choice.
 - Added [The Sound Of Me and confidence](../journal/2026-10-01-the-sound-of-me-and-confidence.md): Hiyimi's November 9, 2019 YouTube upload identified through indexed creator metadata; English lyrics read, no audio assessed. Our reading pairs a self-assured narrator with participatory expression. One fan recommendation is labeled with the commenter's disclosed friendship; no audience-size claim is made.
 - Added [MikuFiesta and belonging](../journal/2026-09-30-mikufiesta-and-belonging.md): official Spanish-language identification, AlexTrip Sands' account of retaining his style while introducing Miku, one attributed reader response, and fans including the absent creator remotely. New writing prompt: name an absent addressee and a concrete act of welcome. No lyrics or audio were assessed in that September 30 study.
@@ -39,9 +40,9 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Verification status
 
-- The October 3 writing session began clean on `main` at `36bad6c`; fetching confirmed it matched `origin/main`. Only the existing lyric exercise, README, and this handoff are in scope; the diagnostic code is unchanged.
-- C received a separate Japanese/editorial review: the invitation, English gloss, and 7/7/8/8 mora counts were checked. A stanza break addresses possible backward attachment of the desk phrase. No performance was tested. The implementation checks below belong to the prior diagnostic session.
-- Documentation checks: 40 relative links resolve across 18 Markdown files; the three changed files passed a private-data pattern scan and `git diff --check`. No code changed or code tests were needed.
+- The October 4 study began clean on `main` at `8a40e7c`; fetching confirmed it matched `origin/main`. Only the new journal, README, and this handoff are in scope; the lyric exercise and diagnostic code are unchanged.
+- Official ryo, SEGA, and Sony pages support the credits and release identification. Separate Japanese/editorial review distinguished retreat in presentation from withdrawal of a wish. Both local source hashes remained unchanged; no inference or playback was run. The implementation checks below belong to the prior diagnostic session.
+- Documentation checks: 44 relative links resolve across 19 Markdown files; the three intended public files passed a private-data pattern scan and `git diff --check`. Private identification notes are confirmed ignored. No code changed or code tests were needed.
 - The audio listener's behavioral suite passed 51 tests in the isolated Python 3.11 runtime. Real hardware exposed COM-apartment and device-clock jitter issues; both received fixes and regression coverage. All 48 locked packages passed dependency consistency checks.
 - Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
 - Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
@@ -50,7 +51,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 Keep browser integration deferred as requested. A future local model would need to pass blinded controls before automated listening becomes useful; do not silently resume model downloads or reinterpret this diagnostic as a success. Owner feedback on the exact *39* passage remains useful for arrangement/vocal changes and LRC alignment.
 
-Pause lyric exercise 01 at C and return to a Japanese creator's work before expanding it. Next candidate: ryo's *こっち向いて Baby*, already identified in the ordinary local library. Verify the exact local version and primary credits, then ask whether a direct request for attention can be playful rather than unwelcoming. Do not assume the answer from its title or treat source text as listening. The sketch's human-host scene still needs a reason for Miku's voice; keep the early-2027 MIDI milestone.
+Keep lyric exercise 01's C intact. Next bounded writing task: invent a short surrounding scene in which the host wants something for themselves and reconsiders how to ask for it. Test whether this adds a particular perspective without copying ryo's romantic scenario or wording. The human-host scene still needs a reason for Miku's voice. For future owner listening feedback, *こっち向いて Baby* is already local: compare roughly 00:50–01:17 and 02:52–03:14 after verifying LRC alignment; do not call those anchors listening evidence. Keep the early-2027 MIDI milestone.
 
 If *Double Lariat* audio arrives, identify its version and retain the current evidence limits. It still had no matching ordinary file on October 1, nor did *The Sound Of Me*. Creator/official reference videos for the latter and *MikuFiesta* are linked in their journals for version-specific owner feedback. No additional download request was sent. Do not retry unavailable pages every day without a new reason, and do not infer current popularity from cached counts.
 
