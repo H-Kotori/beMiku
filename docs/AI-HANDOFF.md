@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-10-04.
+Updated: 2026-10-05.
 
 ## Current focus
 
@@ -8,8 +8,8 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Last meaningful changes
 
+- Added [Before the toast](../sketches/lyrics/2026-10-05-before-the-toast.md), a provisional eight-line scene. Four new lines give the host a wish for the friend's familiar joke, then recognition that the friend is working; [exercise 01's C](../sketches/lyrics/2026-10-02-cup-with-your-name.md) follows unchanged. New-line mora counts: 8/7/7/7, checked with Japanese/editorial review. The interruption changes the train of thought; its performed effect is untested. Earlier A/B/C drafts remain intact. No melody, MIDI, or vocal render; Japanese remains exploratory.
 - Added [こっち向いて Baby and second thoughts](../journal/2026-10-04-kocchi-muite-baby-and-second-thoughts.md): verified ryo's lyrics/music/arrangement credits and July 14, 2010 single release. Read the local LRC; its narrator's demands coexist with vulnerability and retreat. No audio assessed or creator intent established. Track-1 tags match the single listing, but the exact master and LRC alignment remain unverified; private identification notes are in `local/audio-analysis/kocchi-muite-baby/identification.json`.
-- Revised [lyric exercise 01](../sketches/lyrics/2026-10-02-cup-with-your-name.md) to v0.2: preserves October 2's A/B and adds October 3's C. Only the assured closing couplet changes to an optional toast at the friend's desk; the completed welcoming action stays fixed. C is the provisional text preference, with a stanza break clarifying the location. No melody, MIDI, or vocal render; Japanese is an exploratory choice.
 - Added [The Sound Of Me and confidence](../journal/2026-10-01-the-sound-of-me-and-confidence.md): Hiyimi's November 9, 2019 YouTube upload identified through indexed creator metadata; English lyrics read, no audio assessed. Our reading pairs a self-assured narrator with participatory expression. One fan recommendation is labeled with the commenter's disclosed friendship; no audience-size claim is made.
 - Added [MikuFiesta and belonging](../journal/2026-09-30-mikufiesta-and-belonging.md): official Spanish-language identification, AlexTrip Sands' account of retaining his style while introducing Miku, one attributed reader response, and fans including the absent creator remotely. New writing prompt: name an absent addressee and a concrete act of welcome. No lyrics or audio were assessed in that September 30 study.
 - Added [the local audio diagnostic](../experiments/audio-listener/README.md) and [failed listening-gate assessment](../journal/2026-09-29-local-listener-diagnostic.md). Actual waveforms reached Qwen2-Audio-7B-Instruct locally, but two blinded trials invented sounds and missed substantial silence. **Model usefulness failed. The owner chose to finish the diagnostic and defer browser integration and additional model trials.**
@@ -40,9 +40,9 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Verification status
 
-- The October 4 study began clean on `main` at `8a40e7c`; fetching confirmed it matched `origin/main`. Only the new journal, README, and this handoff are in scope; the lyric exercise and diagnostic code are unchanged.
-- Official ryo, SEGA, and Sony pages support the credits and release identification. Separate Japanese/editorial review distinguished retreat in presentation from withdrawal of a wish. Both local source hashes remained unchanged; no inference or playback was run. The implementation checks below belong to the prior diagnostic session.
-- Documentation checks: 44 relative links resolve across 19 Markdown files; the three intended public files passed a private-data pattern scan and `git diff --check`. Private identification notes are confirmed ignored. No code changed or code tests were needed.
+- The October 5 writing session began clean on `main` at `1eaf1e4`; fetching confirmed it matched `origin/main`. Only the new scene study, README, and this handoff are in scope; exercise 01 and diagnostic code are unchanged.
+- Separate Japanese/editorial review checked the new passage's naturalness, gloss, and 8/7/7/7 mora counts. It improved the placement of まだ and distinguished recognition from withdrawal of the request. No performance, inference, or new source research was undertaken. The implementation checks below belong to the prior diagnostic session.
+- Documentation checks: 49 relative links resolve across 20 Markdown files; three intended public files passed a private-data pattern scan and `git diff --check`. C's four lines match the earlier file exactly; a kana tally also confirmed the new mora counts. No code changed or code tests were needed.
 - The audio listener's behavioral suite passed 51 tests in the isolated Python 3.11 runtime. Real hardware exposed COM-apartment and device-clock jitter issues; both received fixes and regression coverage. All 48 locked packages passed dependency consistency checks.
 - Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
 - Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
@@ -51,7 +51,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 Keep browser integration deferred as requested. A future local model would need to pass blinded controls before automated listening becomes useful; do not silently resume model downloads or reinterpret this diagnostic as a success. Owner feedback on the exact *39* passage remains useful for arrangement/vocal changes and LRC alignment.
 
-Keep lyric exercise 01's C intact. Next bounded writing task: invent a short surrounding scene in which the host wants something for themselves and reconsiders how to ask for it. Test whether this adds a particular perspective without copying ryo's romantic scenario or wording. The human-host scene still needs a reason for Miku's voice. For future owner listening feedback, *こっち向いて Baby* is already local: compare roughly 00:50–01:17 and 02:52–03:14 after verifying LRC alignment; do not call those anchors listening evidence. Keep the early-2027 MIDI milestone.
+Pause the invitation scene here and return to a creator's perspective on the choice of voice. Next candidate: livetune's *Tell Your World* from the listening map. Seek a primary kz interview about what writing for Miku enables; distinguish general comments from intent specific to that song. Check available local audio before requesting a download. The human-host scene still needs a reason for Miku's voice; do not infer vocal qualities from text. For future owner feedback, *こっち向いて Baby* is already local: compare roughly 00:50–01:17 and 02:52–03:14 after verifying LRC alignment. Keep the early-2027 MIDI milestone.
 
 If *Double Lariat* audio arrives, identify its version and retain the current evidence limits. It still had no matching ordinary file on October 1, nor did *The Sound Of Me*. Creator/official reference videos for the latter and *MikuFiesta* are linked in their journals for version-specific owner feedback. No additional download request was sent. Do not retry unavailable pages every day without a new reason, and do not infer current popularity from cached counts.
 

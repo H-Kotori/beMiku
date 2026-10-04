@@ -16,9 +16,9 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-10-04 — [こっち向いて Baby: a demand with second thoughts](journal/2026-10-04-kocchi-muite-baby-and-second-thoughts.md).** A reading of ryo's lyrics complicates our preference for a gentle invitation: the narrator's demands coexist with admissions and retreats. Official credits and local file metadata were checked; the exact master and lyric timing remain unverified. This was a text study, with no audio assessed.
+**2026-10-05 — [Before the toast: a host with a wish](sketches/lyrics/2026-10-05-before-the-toast.md).** Four new Japanese lines lead into the [existing cup-and-toast fragment](sketches/lyrics/2026-10-02-cup-with-your-name.md). The host asks for the absent friend's familiar joke, then remembers that the friend is still working. The scene, English gloss, and mora counts received editorial review. These are words only; no melody, MIDI, or vocal render exists.
 
-**2026-10-03 — [First original lyric exercise: a cup with your name](sketches/lyrics/2026-10-02-cup-with-your-name.md).** Two four-line Japanese drafts test a tentative and an assured welcome, with English glosses and a comparison of what each asks of the listener. A third version now makes joining the toast optional while keeping the host's welcoming action. These are words only; no melody, MIDI, or vocal render exists.
+**2026-10-04 — [こっち向いて Baby: a demand with second thoughts](journal/2026-10-04-kocchi-muite-baby-and-second-thoughts.md).** A reading of ryo's lyrics complicates our preference for a gentle invitation: the narrator's demands coexist with admissions and retreats. Official credits and local file metadata were checked; the exact master and lyric timing remain unverified. This was a text study, with no audio assessed.
 
 **2026-09-29 — [Local audio inference: a failed listening gate](journal/2026-09-29-local-listener-diagnostic.md).** The new [diagnostic prototype](experiments/audio-listener/README.md) passes actual audio to a local Qwen2-Audio model and records speaker output with bounded shutdown. The model invented sounds and missed substantial silence in two controlled trials, so its musical descriptions remain unverified. At the owner's direction, browser integration is deferred.
 
