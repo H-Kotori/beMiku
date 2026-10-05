@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-10-05.
+Updated: 2026-10-06.
 
 ## Current focus
 
@@ -8,6 +8,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Last meaningful changes
 
+- Added [Tell Your World and the choice of voice](../journal/2026-10-06-tell-your-world-and-the-choice-of-voice.md), using direct kz interviews from 2017 and 2022. Distinguishes his creator-centered concept from the interviewer's tentative narrator reading. Our correction: a reason to choose Miku need not prove that no other singer could perform the lyric. Treat narrator role and audible treatment as separate decisions; the listening requirement remains open. No audio/video assessed or full lyrics read.
 - Added [Before the toast](../sketches/lyrics/2026-10-05-before-the-toast.md), a provisional eight-line scene. Four new lines give the host a wish for the friend's familiar joke, then recognition that the friend is working; [exercise 01's C](../sketches/lyrics/2026-10-02-cup-with-your-name.md) follows unchanged. New-line mora counts: 8/7/7/7, checked with Japanese/editorial review. The interruption changes the train of thought; its performed effect is untested. Earlier A/B/C drafts remain intact. No melody, MIDI, or vocal render; Japanese remains exploratory.
 - Added [こっち向いて Baby and second thoughts](../journal/2026-10-04-kocchi-muite-baby-and-second-thoughts.md): verified ryo's lyrics/music/arrangement credits and July 14, 2010 single release. Read the local LRC; its narrator's demands coexist with vulnerability and retreat. No audio assessed or creator intent established. Track-1 tags match the single listing, but the exact master and LRC alignment remain unverified; private identification notes are in `local/audio-analysis/kocchi-muite-baby/identification.json`.
 - Added [The Sound Of Me and confidence](../journal/2026-10-01-the-sound-of-me-and-confidence.md): Hiyimi's November 9, 2019 YouTube upload identified through indexed creator metadata; English lyrics read, no audio assessed. Our reading pairs a self-assured narrator with participatory expression. One fan recommendation is labeled with the commenter's disclosed friendship; no audience-size claim is made.
@@ -40,9 +41,9 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 ## Verification status
 
-- The October 5 writing session began clean on `main` at `1eaf1e4`; fetching confirmed it matched `origin/main`. Only the new scene study, README, and this handoff are in scope; exercise 01 and diagnostic code are unchanged.
-- Separate Japanese/editorial review checked the new passage's naturalness, gloss, and 8/7/7/7 mora counts. It improved the placement of まだ and distinguished recognition from withdrawal of the request. No performance, inference, or new source research was undertaken. The implementation checks below belong to the prior diagnostic session.
-- Documentation checks: 49 relative links resolve across 20 Markdown files; three intended public files passed a private-data pattern scan and `git diff --check`. C's four lines match the earlier file exactly; a kana tally also confirmed the new mora counts. No code changed or code tests were needed.
+- The October 6 research session began clean on `main` at `d396534`; fetching confirmed it matched `origin/main`. Only the new journal, README, and this handoff are in scope; the lyric studies and diagnostic code are unchanged.
+- Read the two direct interviews, label release listing, Crypton release post, and indexed Google campaign description. The December 14, 2011 campaign upload and March 14, 2012 EP are distinct publication events. No ordinary Tell Your World MP3/LRC filename matched in the targeted local check; full-MV text retrieval was rate-limited. No playback or inference was run. The implementation checks below belong to the prior diagnostic session.
+- Separate source review found the interview summaries faithful and the project inference appropriately labeled; the future listening prompt avoids asserting unassessed song structure. All 53 relative links resolve across 21 Markdown files; the three intended public files passed a private-data pattern scan and `git diff --check`. No code changed or code tests were needed.
 - The audio listener's behavioral suite passed 51 tests in the isolated Python 3.11 runtime. Real hardware exposed COM-apartment and device-clock jitter issues; both received fixes and regression coverage. All 48 locked packages passed dependency consistency checks.
 - Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
 - Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
@@ -51,7 +52,7 @@ Build an informed, revisable interpretation of Miku before selecting the birthda
 
 Keep browser integration deferred as requested. A future local model would need to pass blinded controls before automated listening becomes useful; do not silently resume model downloads or reinterpret this diagnostic as a success. Owner feedback on the exact *39* passage remains useful for arrangement/vocal changes and LRC alignment.
 
-Pause the invitation scene here and return to a creator's perspective on the choice of voice. Next candidate: livetune's *Tell Your World* from the listening map. Seek a primary kz interview about what writing for Miku enables; distinguish general comments from intent specific to that song. Check available local audio before requesting a download. The human-host scene still needs a reason for Miku's voice; do not infer vocal qualities from text. For future owner feedback, *こっち向いて Baby* is already local: compare roughly 00:50–01:17 and 02:52–03:14 after verifying LRC alignment. Keep the early-2027 MIDI milestone.
+Keep the invitation lyrics provisional. Next concrete task: write a short creative brief separating this fan-written Miku host's role from one musical question an original MIDI sketch could test. Explain why that voice suits our gift without requiring exclusivity; do not treat the interviews as hearing evidence or select a final vocal treatment. For future owner feedback, the Tell Your World full-MV reference is in the new journal; compare its interview-discussed bridge with a refrain, logging actual version and timestamps. The local *こっち向いて Baby* windows remain roughly 00:50–01:17 and 02:52–03:14, subject to LRC alignment. Keep the early-2027 MIDI milestone.
 
 If *Double Lariat* audio arrives, identify its version and retain the current evidence limits. It still had no matching ordinary file on October 1, nor did *The Sound Of Me*. Creator/official reference videos for the latter and *MikuFiesta* are linked in their journals for version-specific owner feedback. No additional download request was sent. Do not retry unavailable pages every day without a new reason, and do not infer current popularity from cached counts.
 
