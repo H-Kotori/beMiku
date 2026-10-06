@@ -16,9 +16,9 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-10-06 — [Tell Your World: a reason for this voice](journal/2026-10-06-tell-your-world-and-the-choice-of-voice.md).** Two kz interviews help separate Miku's role in a song from the sound of her performance. Our revised question is why we choose her, without requiring that no human could sing the lyric. This is source research; the vocal treatment for our gift remains untested.
+**2026-10-07 — [Birthday host: a creative brief](sketches/2026-10-07-birthday-host-brief.md).** The narrator moves from wanting an immediate reply to leaving room for the friend. An eight-bar comparison will test an earlier melody release before the change of thought, with the accompaniment continuing. Timing and comparison criteria were reviewed; this is a brief, with no MIDI or audio produced yet.
 
-**2026-10-05 — [Before the toast: a host with a wish](sketches/lyrics/2026-10-05-before-the-toast.md).** Four new Japanese lines lead into the [existing cup-and-toast fragment](sketches/lyrics/2026-10-02-cup-with-your-name.md). The host asks for the absent friend's familiar joke, then remembers that the friend is still working. The scene, English gloss, and mora counts received editorial review. These are words only; no melody, MIDI, or vocal render exists.
+**2026-10-06 — [Tell Your World: a reason for this voice](journal/2026-10-06-tell-your-world-and-the-choice-of-voice.md).** Two kz interviews help separate Miku's role in a song from the sound of her performance. Our revised question is why we choose her, without requiring that no human could sing the lyric. This is source research; the vocal treatment for our gift remains untested.
 
 **2026-09-29 — [Local audio inference: a failed listening gate](journal/2026-09-29-local-listener-diagnostic.md).** The new [diagnostic prototype](experiments/audio-listener/README.md) passes actual audio to a local Qwen2-Audio model and records speaker output with bounded shutdown. The model invented sounds and missed substantial silence in two controlled trials, so its musical descriptions remain unverified. At the owner's direction, browser integration is deferred.
 
