@@ -1,0 +1,61 @@
+{
+  "title": "Before the toast - sketch 01",
+  "version": "0.1",
+  "status": "Original instrumental guide; no Miku vocal or perceptual review",
+  "python": "3.10.20",
+  "mido": "1.3.3",
+  "packaging": "26.3",
+  "source_sha256_canonical_json": "c89d439c3c02d389803b043b44b0c8ef881dbcb0fbe4f417e525dba029a87a4d",
+  "builder_sha256_lf": "eacee63bbc236b999a41533241e3846754b43105d3230c9e37e4f9024f0d7ba5",
+  "tempo_bpm": 96,
+  "total_beats": 32,
+  "ticks_per_beat": 480,
+  "sample_rate_hz": 44100,
+  "channels": 1,
+  "sample_width_bytes": 2,
+  "attack_seconds": 0.01,
+  "release_seconds": 0.08,
+  "fixed_gains": {
+    "lead": 0.22,
+    "backing": 0.08
+  },
+  "second_harmonic_weights": {
+    "lead": 0.18,
+    "backing": 0.1
+  },
+  "comparison": {
+    "lead_note_index": 14,
+    "pitch": 74,
+    "on_beat": 13.0,
+    "off_beat": {
+      "A": 15.5,
+      "B": 14.0
+    },
+    "next_phrase_beat": 16,
+    "review_window_seconds": [
+      7.5,
+      11.25
+    ]
+  },
+  "measurements": {
+    "A": {
+      "frames": 882000,
+      "seconds": 20.0,
+      "peak_linear_before_quantization": 0.34100379497956046,
+      "rms_linear_before_quantization": 0.089789966643413
+    },
+    "B": {
+      "frames": 882000,
+      "seconds": 20.0,
+      "peak_linear_before_quantization": 0.34100379497956046,
+      "rms_linear_before_quantization": 0.0875255577199383
+    }
+  },
+  "sha256": {
+    "A.mid": "abc72a76a1191c88b410acc2d9881b7d74d24e78e3985f2ec2d458acdbe6e2ec",
+    "A.wav": "0fd22633fd141cca3d3d1e8a92b53be5ca71700199afa0c4c8e52e43526c2d87",
+    "B.mid": "c80038e73dd98a43f73bd1f1ee39ea3612def1c0ff7863b2e40b56f1d7fbb069",
+    "B.wav": "9129e957ef6fbb4f4fd026a82264a0b02f62a61f32f669952f1b56816ba686a6"
+  },
+  "reproducibility_scope": "Same runtime; cross-platform math not guaranteed. Check with test_build.py."
+}

@@ -16,7 +16,7 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
-**2026-10-07 — [Birthday host: a creative brief](sketches/2026-10-07-birthday-host-brief.md).** The narrator moves from wanting an immediate reply to leaving room for the friend. An eight-bar comparison will test an earlier melody release before the change of thought, with the accompaniment continuing. Timing and comparison criteria were reviewed; this is a brief, with no MIDI or audio produced yet.
+**2026-10-08 — [First playable original MIDI sketch](sketches/music/01-before-the-toast/README.md).** Compare [guide A](sketches/music/01-before-the-toast/generated/A.wav) and [guide B](sketches/music/01-before-the-toast/generated/B.wav), especially 00:07.50–00:11.25. The 20-second versions change one melody note's ending while the accompaniment continues. The editable score, program, MIDI files, and matched instrumental previews are published; repeatability and the isolated change passed checks. These guides contain no Miku vocal. Listening feedback and a preferred version remain open.
 
 **2026-10-06 — [Tell Your World: a reason for this voice](journal/2026-10-06-tell-your-world-and-the-choice-of-voice.md).** Two kz interviews help separate Miku's role in a song from the sound of her performance. Our revised question is why we choose her, without requiring that no human could sing the lyric. This is source research; the vocal treatment for our gift remains untested.
 
@@ -30,6 +30,6 @@ Miku's original software was released on August 31, 2007, so the gift marks its 
 
 Each session should leave something small and worthwhile: a close reading, a musical observation with an evidence trail, a changed opinion, or eventually an original sketch. Facts, creator statements, listener interpretations, and our own ideas are labeled separately. Popular songs are an entrance; less visible creators and different languages belong in the exploration too.
 
-When the musical direction has earned some substance, we will build a small, reproducible composition program, write original lyrics, and render and tune the vocal using a properly licensed Miku voicebank. The [roadmap](docs/ROADMAP.md) defines that transition and the practical help needed later.
+A small, reproducible composition program now exports the first original MIDI comparison and instrumental guides. We will keep learning and testing the music before developing the strongest direction into a complete song with a properly licensed Miku vocal. The [roadmap](docs/ROADMAP.md) defines that transition and the practical help needed later.
 
 This is an independent, AI-assisted fan project, not an official Crypton project. Creator recordings, lyrics, artwork, and voicebank files stay with their creators and rights holders; this repository begins with original notes and links.

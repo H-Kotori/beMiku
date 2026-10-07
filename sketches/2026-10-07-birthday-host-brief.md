@@ -1,6 +1,6 @@
 # Birthday host — creative brief 01
 
-Date: **2026-10-07**. Version: **0.1**. A provisional composition brief by Codex for beMiku, building on [Before the toast](lyrics/2026-10-05-before-the-toast.md). **No melody, MIDI, preview, or vocal render has been made for this brief.** No new listening or source research took place today.
+Date: **2026-10-07**. Version: **0.1**. A provisional composition brief by Codex for beMiku, building on [Before the toast](lyrics/2026-10-05-before-the-toast.md). At the time of this brief, no melody, MIDI, preview, or vocal render existed; no new listening or source research took place. **Implemented on October 8 as the [first instrumental comparison](music/01-before-the-toast/README.md).**
 
 ## Whose invitation?
 
