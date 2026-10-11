@@ -17,7 +17,7 @@ This pair is intended for owner feedback. No preferred version has been selected
 
 The [editable score](score.json) contains 29 explicitly authored lead notes and 24 accompaniment notes: four two-bar phrases in C major, **4/4, 96 BPM**, spanning 32 quarter-note beats. The lead ranges from MIDI 65 to 76 (F4–E5); the chord sequence is C–F–Am–G–Am–F–Dm–C. These are provisional musical choices for this experiment, not observations about any reference song.
 
-The four phrases correspond broadly to the first four lines of [Before the toast](../../lyrics/2026-10-05-before-the-toast.md). No syllable-level lyric underlay, pitch-accent review, or sung pronunciation has been verified. In particular, a written mora count does not tell us how to voice a small っ or place a long vowel on these notes.
+The four phrases correspond broadly to the first four lines of [Before the toast](../../lyrics/2026-10-05-before-the-toast.md). The [October 12 lyric-to-note map](2026-10-12-lyric-underlay.md) now places the first two lines against the existing score and identifies long-vowel and nasal-transition questions. It is a provisional planning artifact; no sung pronunciation or pitch-accent review has been verified. The remaining lines, including the small っ at line three's start, are unmapped. The score and previews are unchanged.
 
 Only the release of D5 at zero-based beat 13 changes:
 
