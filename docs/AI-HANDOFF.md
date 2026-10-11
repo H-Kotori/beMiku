@@ -1,6 +1,6 @@
 # AI Handoff
 
-Updated: 2026-10-08.
+Updated: 2026-10-11.
 
 ## Current focus
 
@@ -8,6 +8,7 @@ Develop small original sketches alongside creator research, using listening evid
 
 ## Last meaningful changes
 
+- Added [Mitchie M and natural phrasing](../journal/2026-10-11-mitchie-m-and-natural-phrasing.md). Direct interviews inform our distinction between word clarity, phrase movement, and synthetic character. General tuning statements are not assigned to *好き！雪！本気マジック*. Its creator-linked MV and collaborators are identified; the 2013 chorus teaser predates the February 2014 MV announcement. No audio/video assessment, complete lyric reading, or new listener testimony.
 - Implemented the [first original MIDI comparison](../sketches/music/01-before-the-toast/README.md) from the birthday-host brief. Its authored C-major score has 29 lead notes and 24 accompaniment notes, 8 bars, 4/4, 96 BPM. A/B change only D5's note-off from beat 15.5 to 14, before the next phrase at beat 16. Public artifacts include the program, score, two MIDI files, two 20-second WAV guides, tests, and a hash/measurement manifest. These are instrumental guides, not Miku vocals or a completed song; no perceptual review or preferred version yet.
 - Added [Tell Your World and the choice of voice](../journal/2026-10-06-tell-your-world-and-the-choice-of-voice.md), using direct kz interviews from 2017 and 2022. Distinguishes his creator-centered concept from the interviewer's tentative narrator reading. Our correction: a reason to choose Miku need not prove that no other singer could perform the lyric. Treat narrator role and audible treatment as separate decisions; the listening requirement remains open. No audio/video assessed or full lyrics read.
 - Added [Before the toast](../sketches/lyrics/2026-10-05-before-the-toast.md), a provisional eight-line scene. Four new lines give the host a wish for the friend's familiar joke, then recognition that the friend is working; [exercise 01's C](../sketches/lyrics/2026-10-02-cup-with-your-name.md) follows unchanged. New-line mora counts: 8/7/7/7, checked with Japanese/editorial review. The interruption changes the train of thought; its performed effect is untested. Earlier A/B/C drafts remain intact. The October 8 sketch adds a melody and MIDI, but no vocal render; Japanese remains exploratory.
@@ -43,9 +44,9 @@ Develop small original sketches alongside creator research, using listening evid
 
 ## Verification status
 
-- The October 8 implementation began clean on `main` at `877124e`; fetching confirmed it matched `origin/main`. Scope: new sketch directory, original brief's implementation link, README, and this handoff. Lyric studies and audio-diagnostic code are unchanged.
+- The October 11 research session began clean on `main` at `9590d7a`; fetch and fast-forward check confirmed it matched `origin/main`. Scope: new journal entry, README, and this handoff. No code, score, audio, or lyric changes; the implementation checks below belong to earlier sessions.
 - Three independently written behavioral tests passed: full repeat-build byte equality, only the designated absolute MIDI note-off differing, and expected PCM difference boundaries. They also verify note lifecycles, monophony, timing, continuing backing, and no full-scale clipping. Numerical inspection confirmed 20-second WAVs and PCM differences only from about 8.75002 to 9.76748 seconds. Peak magnitude is 11,174/32,768 in both. Four output hashes match the manifest; separate code review found no material defects. No perceptual listening occurred.
-- All 72 relative Markdown links across 23 documents resolve. Nine intended text files passed private-data checks; four original binaries match a fresh rebuild, as does its manifest. The exact staged diff was reviewed and whitespace checks passed. The older diagnostic checks below were not rerun for this isolated composition change.
+- October 11: all 76 relative Markdown links across 24 documents resolve; three intended text files passed private-data checks. Independent review found no material source-attribution or evidence-boundary issues. The exact staged diff was reviewed and whitespace checks passed. No code tests were rerun for this research-only change; the October 8 rebuild matched all five generated files.
 - The audio listener's behavioral suite passed 51 tests in the isolated Python 3.11 runtime. Real hardware exposed COM-apartment and device-clock jitter issues; both received fixes and regression coverage. All 48 locked packages passed dependency consistency checks.
 - Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
 - Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
@@ -56,7 +57,7 @@ Keep browser integration deferred as requested. A future local model would need 
 
 Owner comparison of A.wav and B.wav was requested on October 8 and is pending: phrase separation and momentum at 00:07.50–00:11.25, allowing no preference or neither working. Record feedback against version 0.1 and manifest hashes before selecting a treatment. The next phrase begins at 00:10.00; nominal lead rests include different amounts of the shared 80 ms release tail. No voicebank request is needed yet. Keep lyrics provisional and do not choose the main song direction from unassessed audio.
 
-While listening feedback is pending, a useful next research question is what Mitchie M means by natural vocal delivery in a primary creator interview. Keep general tuning comments separate from claims about a particular performance; the previously identified local *好き！雪！本気マジック* is a candidate for later listening. Do not expand the composition program without a concrete musical need.
+While listening feedback is pending, draft a provisional lyric-to-note map for the first two lines of Before the toast, marking long vowels and the first line's final nasal. Keep the published score and A/B files unchanged. A mapped text is not verified pronunciation or a Miku vocal; do not select a register or tuning style from interview claims. The October 11 journal supplies the creator-linked *好き！雪！本気マジック* MV for later version-specific listening. Do not expand the composition program without a concrete musical need.
 
 For future owner feedback, the Tell Your World full-MV reference is in its journal; compare the interview-discussed bridge with a refrain, logging actual version and timestamps. No ordinary local filename matched on October 6; playback was not verified. The local *こっち向いて Baby* windows remain roughly 00:50–01:17 and 02:52–03:14, subject to LRC alignment. Preserve the early-2027 MIDI milestone; an earlier provisional sketch does not close the listening requirement.
 

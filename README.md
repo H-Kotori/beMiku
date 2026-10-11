@@ -16,6 +16,8 @@ We begin with curiosity: who makes these songs, what do they want to say, and wh
 
 ## Where we are
 
+**2026-10-11 — [Mitchie M: what are we calling natural?](journal/2026-10-11-mitchie-m-and-natural-phrasing.md).** Creator interviews sharpen our next vocal question: judge word clarity, phrase movement, and synthetic character separately. The study identifies the original *好き！雪！本気マジック* MV for later listening; it makes no claim about that recording's sound. Our instrumental A/B comparison remains open.
+
 **2026-10-08 — [First playable original MIDI sketch](sketches/music/01-before-the-toast/README.md).** Compare [guide A](sketches/music/01-before-the-toast/generated/A.wav) and [guide B](sketches/music/01-before-the-toast/generated/B.wav), especially 00:07.50–00:11.25. The 20-second versions change one melody note's ending while the accompaniment continues. The editable score, program, MIDI files, and matched instrumental previews are published; repeatability and the isolated change passed checks. These guides contain no Miku vocal. Listening feedback and a preferred version remain open.
 
 **2026-10-06 — [Tell Your World: a reason for this voice](journal/2026-10-06-tell-your-world-and-the-choice-of-voice.md).** Two kz interviews help separate Miku's role in a song from the sound of her performance. Our revised question is why we choose her, without requiring that no human could sing the lyric. This is source research; the vocal treatment for our gift remains untested.
