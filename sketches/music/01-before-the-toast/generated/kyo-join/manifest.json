@@ -1,0 +1,53 @@
+{
+  "title": "Before the toast - kyo join based on A",
+  "version": "0.1",
+  "status": "Original instrumental guide; no Miku vocal or perceptual review",
+  "python": "3.10.20",
+  "mido": "1.3.3",
+  "packaging": "26.3",
+  "source_sha256_canonical_json": "c89d439c3c02d389803b043b44b0c8ef881dbcb0fbe4f417e525dba029a87a4d",
+  "original_builder_sha256_lf": "eacee63bbc236b999a41533241e3846754b43105d3230c9e37e4f9024f0d7ba5",
+  "candidate_builder_sha256_lf": "7521107f5e817e39bd7aa934c58d17522096066e7c7abee8436b48bf154fd56a",
+  "comparison": {
+    "baseline": "A",
+    "lead_note_index": 8,
+    "pitch": 72,
+    "on_beat": 8,
+    "off_beat": {
+      "baseline": 8.75,
+      "candidate": 9
+    },
+    "next_note_on_beat": 9,
+    "review_window_seconds": [
+      5.0,
+      6.40625
+    ]
+  },
+  "tempo_bpm": 96,
+  "total_beats": 32,
+  "ticks_per_beat": 480,
+  "sample_rate_hz": 44100,
+  "channels": 1,
+  "sample_width_bytes": 2,
+  "attack_seconds": 0.01,
+  "release_seconds": 0.08,
+  "fixed_gains": {
+    "lead": 0.22,
+    "backing": 0.08
+  },
+  "second_harmonic_weights": {
+    "lead": 0.18,
+    "backing": 0.1
+  },
+  "measurements": {
+    "frames": 882000,
+    "seconds": 20.0,
+    "peak_linear_before_quantization": 0.34100379497956046,
+    "rms_linear_before_quantization": 0.09017597661713234
+  },
+  "sha256": {
+    "kyo-join-A.mid": "002bbfe82bed10c8bc414eb42e91f8aa208ce675f2a8ce0fe839bf8e24ab3104",
+    "kyo-join-A.wav": "86e8e2c5983fd562fb9fad39743138f5762501b6f7124ee19c6c2fb233fbbdff"
+  },
+  "reproducibility_scope": "Same runtime; cross-platform math not guaranteed. Check with test_kyo_join.py."
+}

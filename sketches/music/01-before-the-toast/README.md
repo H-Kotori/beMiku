@@ -19,6 +19,8 @@ The [editable score](score.json) contains 29 explicitly authored lead notes and 
 
 The four phrases correspond broadly to the first four lines of [Before the toast](../../lyrics/2026-10-05-before-the-toast.md). The [October 12 lyric-to-note map](2026-10-12-lyric-underlay.md) now places the first two lines against the existing score and identifies long-vowel and nasal-transition questions. It is a provisional planning artifact; no sung pronunciation or pitch-accent review has been verified. The remaining lines, including the small っ at line three's start, are unmapped. The score and previews are unchanged.
 
+The separate [October 13 vowel-join candidate](2026-10-13-kyo-join.md) extends the first note of 今日 to meet the next note, starting from A. It adds its own MIDI, instrumental guide, builder, and tests, preserving this original A/B pair. Its five-second second-line vocal experiment is prepared; the licensed voicebank/editor is still to be identified.
+
 Only the release of D5 at zero-based beat 13 changes:
 
 | Measurement | A | B |
