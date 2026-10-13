@@ -1,5 +1,11 @@
 # Working on beMiku
 
+## Owner workflow change - 2026-10-13
+
+The owner has superseded the self-directed handover and daily production loop. The parent assistant reviews actual Codex song studies, lyrics, and MIDI, decides the next day's direction, and updates the owner directly. Give more effort to song listening, reviewing, and learning. Instrumental generation and Vocaloid production are premature and deferred until explicitly reviewed and authorized.
+
+Before the next session, wait for an explicit parent-reviewed direction. Do not infer authorization from the historical handoff, roadmap dates, pending voicebank request, or old automation prompt. Preserve all existing work and evidence. See [the proposed next-session brief](docs/PARENT-REVIEW.md).
+
 ## Purpose
 
 Learn about Hatsune Miku through creators, songs, and listeners, then create an original birthday song for August 31, 2027. The owner authorized saving project work and pushing reviewed changes to `main`. Keep work focused, incremental, and in English unless asked otherwise.

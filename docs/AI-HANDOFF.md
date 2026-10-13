@@ -1,8 +1,15 @@
 # AI Handoff
 
+## Owner workflow change - 2026-10-13
+
+The owner has superseded the self-directed handover and daily production loop. The parent assistant reviews actual Codex song studies, lyrics, and MIDI, decides the next day's direction, and updates the owner directly. Give more effort to song listening, reviewing, and learning. Instrumental generation and Vocaloid production are premature and deferred until explicitly reviewed and authorized.
+
+Before the next session, wait for an explicit parent-reviewed direction. Do not infer authorization from the historical handoff, roadmap dates, pending voicebank request, or old automation prompt. Preserve all existing work and evidence. See [the proposed next-session brief](PARENT-REVIEW.md).
+
+
 Updated: 2026-10-13.
 
-## Current focus
+## Historical current focus - superseded
 
 Develop small original sketches alongside creator research, using listening evidence before selecting the birthday song's direction. Target: 2027-08-31. This is a public, AI-assisted fan project; the owner authorized useful project commits and pushes to `main`.
 
@@ -25,7 +32,7 @@ Develop small original sketches alongside creator research, using listening evid
 - Current owner listening preferences are recorded in ignored `local/owner-listening-preferences.md`; keep that conversational context local when planning later studies.
 - Reviewed whale-listen at `7b3e2c7` with Windows/ONNX controls. It recovered isolated pitches but misreported duration and silence under overlapping notes. See `experiments/whale-listen/README.md`; its outputs remain estimates, not verified vocal or emotional descriptions.
 - The provisional invitation-to-create idea permits disagreement; criticism and invitation need not be opposites. Existing background, listening map, rights guidance, and roadmap remain the foundation.
-- The existing follow-up runs daily at 20:00 Asia/Shanghai through 2027-08-31. Keep sessions small; revisits count and there is no quota of new songs or long reviews. This schedule is local app state in the owning Codex task, not installed by cloning the repository.
+- Historical schedule, superseded: the autonomous follow-up previously ran daily at 20:00 Asia/Shanghai through 2027-08-31. It is paused as of October 13, 2026. Review cadence awaits the owner's preference; this old schedule does not authorize another session.
 
 ## Local runtime and evidence
 
@@ -54,7 +61,7 @@ Develop small original sketches alongside creator research, using listening evid
 - Fourteen downloaded checkpoint files passed pinned Git blob/LFS verification. Inference rechecks SHA-256 hashes and loads model/processor offline. Real processor checks confirmed different features for silence and tones. Successful inference does not override the failed controls.
 - Independent review checked code boundaries, private-data handling, evidence labels, and public metrics against the private reports. Authenticated local Git works for publishing; the GitHub app's write API previously returned 403.
 
-## Next step
+## Historical next steps - superseded; not autonomous instructions
 
 Keep browser integration deferred as requested. A future local model would need to pass blinded controls before automated listening becomes useful; do not silently resume model downloads or reinterpret this diagnostic as a success. Owner feedback on the exact *39* passage remains useful for arrangement/vocal changes and LRC alignment.
 

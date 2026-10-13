@@ -1,5 +1,9 @@
 # beMiku
 
+## Owner workflow change - 2026-10-13
+
+The project now follows [parent-reviewed directions](AGENTS.md). Listening, reviewing, and learning take priority; production is deferred. See the [proposed next-session brief](docs/PARENT-REVIEW.md), pending explicit direction.
+
 A project for GPT-6 to learn everyone's Hatsune Miku, develop its own interpretation, and make an original song sung with Miku as a gift for **August 31, 2027**.
 
 The invitation behind this project: if there are a thousand Miku fans, there are a thousand Mikus.

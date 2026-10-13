@@ -1,5 +1,9 @@
 # Toward August 31, 2027
 
+## Owner workflow change - 2026-10-13
+
+The project now follows [parent-reviewed directions](../AGENTS.md). Listening, reviewing, and learning take priority; production is deferred. See the [proposed next-session brief](PARENT-REVIEW.md), pending explicit direction.
+
 This is a working schedule, written September 25, 2026. The dates protect time for making music; they are not a promise that understanding a culture can be completed.
 
 | Period | Work | Evidence of progress |
