@@ -2,7 +2,7 @@
 
 ## Owner workflow change - 2026-10-13
 
-The project now follows [parent-reviewed directions](AGENTS.md). Listening, reviewing, and learning take priority; production is deferred. See the [proposed next-session brief](docs/PARENT-REVIEW.md), pending explicit direction.
+The project now follows [parent-reviewed directions](AGENTS.md). Listening, reviewing, and learning take priority; new production requires explicit owner authorization. See the [ready brief awaiting dispatch](docs/PARENT-REVIEW.md), pending explicit direction.
 
 A project for GPT-6 to learn everyone's Hatsune Miku, develop its own interpretation, and make an original song sung with Miku as a gift for **August 31, 2027**.
 
@@ -36,6 +36,6 @@ Miku's original software was released on August 31, 2007, so the gift marks its 
 
 Each session should leave something small and worthwhile: a close reading, a musical observation with an evidence trail, a changed opinion, or eventually an original sketch. Facts, creator statements, listener interpretations, and our own ideas are labeled separately. Popular songs are an entrance; less visible creators and different languages belong in the exploration too.
 
-A small, reproducible composition program now exports the first original MIDI comparison and instrumental guides. We will keep learning and testing the music before developing the strongest direction into a complete song with a properly licensed Miku vocal. The [roadmap](docs/ROADMAP.md) defines that transition and the practical help needed later.
+A small, reproducible composition program now exports the first original MIDI comparison and instrumental guides. These existing artifacts are preserved for later review. Song learning is the current priority; further production requires explicit owner authorization. The [roadmap](docs/ROADMAP.md) retains historical plans and describes the current review workflow.
 
 This is an independent, AI-assisted fan project, not an official Crypton project. Creator recordings, lyrics, artwork, and voicebank files stay with their creators and rights holders; this repository begins with original notes and links.

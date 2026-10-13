@@ -2,9 +2,9 @@
 
 ## Owner workflow change - 2026-10-13
 
-The project now follows [parent-reviewed directions](../AGENTS.md). Listening, reviewing, and learning take priority; production is deferred. See the [proposed next-session brief](PARENT-REVIEW.md), pending explicit direction.
+The project now follows [parent-reviewed directions](../AGENTS.md). Listening, reviewing, and learning take priority; new production requires explicit owner authorization. See the [ready brief awaiting dispatch](PARENT-REVIEW.md), pending explicit direction.
 
-This is a working schedule, written September 25, 2026. The dates protect time for making music; they are not a promise that understanding a culture can be completed.
+The September 25, 2026 schedule below is historical planning context. Its dates and production milestones do not authorize work. Song learning currently takes priority; every next session requires explicit parent-reviewed dispatch.
 
 | Period | Work | Evidence of progress |
 | --- | --- | --- |
@@ -15,9 +15,9 @@ This is a working schedule, written September 25, 2026. The dates protect time f
 | August 1–30, 2027 | Finish and rehearse release. Allow time for corrections. | Final audio and editable project files where redistributable, lyrics, credits, rights notes, and a short account of the journey. |
 | August 31, 2027 | Present the birthday gift. | A playable original song featuring a licensed Miku vocal, published with the agreed credits and project materials. |
 
-## The transition to composition
+## Historical transition criteria - production deferred
 
-We can start provisional sketches as soon as we can explain a musical idea using concrete observations. We do not need to know every song first. Before choosing the main birthday-song direction, we should be able to:
+These earlier criteria remain useful considerations for a future owner-authorized production phase. Meeting them alone does not authorize sketches or production.
 
 1. Discuss several contrasting versions of Miku, separating the song's narrator, its producer, and listeners' readings.
 2. Point to actual listening evidence for the musical choices we want to explore. Metadata research alone does not satisfy this.
@@ -26,14 +26,14 @@ We can start provisional sketches as soon as we can explain a musical idea using
 
 If direct audio analysis remains unavailable, ask the owner for a workable listening route or clearly attributed listening feedback before declaring that gate complete. Continue historical and creator research in the meantime.
 
-## First musical experiment, when ready
+## Historical musical experiment proposal - not authorized
 
-Build a small program that turns an explicitly authored melody, harmony, tempo, and form into an editable MIDI sketch. Keep its source and reproduction command together. Compare two short original treatments of the same idea before expanding one into a full song. A synthesis preview can help audition notes, but must not be labeled a Miku performance.
+If the owner explicitly authorizes production later, the earlier proposal is to build a small program that turns an explicitly authored melody, harmony, tempo, and form into an editable MIDI sketch. Keep its source and reproduction command together. Compare two short original treatments of the same idea before expanding one into a full song. A synthesis preview can help audition notes, but must not be labeled a Miku performance.
 
-The eventual vocal step requires a licensed Miku voicebank and compatible editor. We have not inventoried installed music software or selected a product yet. When we have a singable phrase to test, ask the owner which licensed software they can provide, verify current requirements, and test import, pronunciation, tuning, and export. No purchase is needed for this first research stage.
+The eventual vocal step requires a licensed Miku voicebank and compatible editor. We have not inventoried installed music software or selected a product yet. Only after explicit owner authorization for production should software provision, requirements, import, pronunciation, tuning, and export be considered. No purchase is needed for this first research stage.
 
 ## A sustainable session
 
-Return daily for a focused listening or review session. Follow one question through one work, revisit a familiar song, compare two works when useful, or advance one small composition task once that stage begins. Repeated listening is welcome; there is no daily quota of new songs or long reviews. Save what changed in our understanding. After several sessions, revisit an earlier note and record whether it still holds up.
+Daily parent review replaces autonomous daily study. The parent reviews actual outputs, selects one bounded next direction, and updates the owner directly. Codex waits for explicit dispatch; the old self-directed schedule stays paused. Repeated listening and revisits are welcome, with no quota or mandatory checklist. Record what changed in understanding and the questions worth returning to; do not force learning into a production task.
 
-The first question: how can a voice that a producer values for its distance become a listener's source of closeness?
+The first question remains open: how can a voice that a producer values for its distance become a listener's source of closeness?

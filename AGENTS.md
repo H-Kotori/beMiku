@@ -2,9 +2,9 @@
 
 ## Owner workflow change - 2026-10-13
 
-The owner has superseded the self-directed handover and daily production loop. The parent assistant reviews actual Codex song studies, lyrics, and MIDI, decides the next day's direction, and updates the owner directly. Give more effort to song listening, reviewing, and learning. Instrumental generation and Vocaloid production are premature and deferred until explicitly reviewed and authorized.
+The owner has superseded the self-directed handover and daily production loop. The parent assistant reviews actual Codex song studies, lyrics, and MIDI, decides the next day's direction, and updates the owner directly. Give more effort to song listening, reviewing, and learning. Instrumental generation and Vocaloid production are premature and deferred until the owner explicitly authorizes new production.
 
-Before the next session, wait for an explicit parent-reviewed direction. Do not infer authorization from the historical handoff, roadmap dates, pending voicebank request, or old automation prompt. Preserve all existing work and evidence. See [the proposed next-session brief](docs/PARENT-REVIEW.md).
+Before the next session, wait for an explicit parent-reviewed direction. Do not infer authorization from the historical handoff, roadmap dates, pending voicebank request, or old automation prompt. Preserve all existing work and evidence. See [the ready brief awaiting dispatch](docs/PARENT-REVIEW.md).
 
 ## Purpose
 
@@ -30,8 +30,12 @@ Read `README.md`, `docs/AI-HANDOFF.md`, and the latest relevant journal entry be
 - Stage only the intended files. Do not force-push, rewrite others' history, or discard user changes. Verify the remote result after publishing.
 - Contributions and public links are welcome. Do not contact people, post comments, or send messages on the owner's behalf without explicit authorization. Permission to push repository work is not permission for outreach.
 
-## Creative work
+## Learning and creative work
 
-Use `docs/ROADMAP.md` to move from learning into small original experiments. Do not remain in research forever. The program should support musical decisions and export editable material; it should not assemble copied songs. Ask for a licensed editor/voicebank when a concrete vocal experiment needs one. Recheck current compatibility and terms at that point.
+Song listening, reviewing, and learning are the current priority. Follow only the next song-learning direction explicitly reviewed and dispatched by the parent assistant. The parent may choose learning directions and preserve optional ideas within this scope; parent review alone cannot authorize new instrumental or Vocaloid production. Spontaneous creative ideas may be recorded as optional possibilities; they do not require a sketch, MIDI export, instrumental generation, or Vocaloid production. Preserve existing creative work without making its unfinished experiments obligations. Production remains deferred until the owner explicitly authorizes new production; roadmap dates and software requests do not open that gate.
 
-ChatGPT consultation is optional. Use only a connection verified to point at beMiku, keep private connection state outside the repository, and do not treat a model's response as a research source. Keep useful beMiku work moving when that optional consultation is unavailable.
+In a session note, preserve what drew interest, what remains puzzling, why an interpretation changed, and the evidence actually available. Use relevant source/version links and timestamps where assessed, distinguishing direct listening, attributed owner feedback, machine estimates, and text-only research. Revisit questions when useful; there is no quota or mandatory full checklist, and learning need not yield a songwriting technique.
+
+## Parent review
+
+Parent review of actual outputs and the next direction is required. If that review is unavailable, preserve the verified state and wait; do not independently select or resume a task. Additional ChatGPT consultation is optional within a dispatched task and does not replace parent review. Use only a connection verified to point at beMiku, keep private connection state outside the repository, and do not treat a model's response as a research source. The parent updates the owner directly; daily parent review replaces the paused self-directed schedule, which must not be resumed.

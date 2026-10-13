@@ -2,9 +2,9 @@
 
 ## Owner workflow change - 2026-10-13
 
-The owner has superseded the self-directed handover and daily production loop. The parent assistant reviews actual Codex song studies, lyrics, and MIDI, decides the next day's direction, and updates the owner directly. Give more effort to song listening, reviewing, and learning. Instrumental generation and Vocaloid production are premature and deferred until explicitly reviewed and authorized.
+The owner has superseded the self-directed handover and daily production loop. The parent assistant reviews actual Codex song studies, lyrics, and MIDI, decides the next day's direction, and updates the owner directly. Give more effort to song listening, reviewing, and learning. Instrumental generation and Vocaloid production are premature and deferred until the owner explicitly authorizes new production.
 
-Before the next session, wait for an explicit parent-reviewed direction. Do not infer authorization from the historical handoff, roadmap dates, pending voicebank request, or old automation prompt. Preserve all existing work and evidence. See [the proposed next-session brief](PARENT-REVIEW.md).
+Before the next session, wait for an explicit parent-reviewed direction. Do not infer authorization from the historical handoff, roadmap dates, pending voicebank request, or old automation prompt. Preserve all existing work and evidence. See [the ready brief awaiting dispatch](PARENT-REVIEW.md).
 
 
 Updated: 2026-10-13.
@@ -32,7 +32,7 @@ Develop small original sketches alongside creator research, using listening evid
 - Current owner listening preferences are recorded in ignored `local/owner-listening-preferences.md`; keep that conversational context local when planning later studies.
 - Reviewed whale-listen at `7b3e2c7` with Windows/ONNX controls. It recovered isolated pitches but misreported duration and silence under overlapping notes. See `experiments/whale-listen/README.md`; its outputs remain estimates, not verified vocal or emotional descriptions.
 - The provisional invitation-to-create idea permits disagreement; criticism and invitation need not be opposites. Existing background, listening map, rights guidance, and roadmap remain the foundation.
-- Historical schedule, superseded: the autonomous follow-up previously ran daily at 20:00 Asia/Shanghai through 2027-08-31. It is paused as of October 13, 2026. Review cadence awaits the owner's preference; this old schedule does not authorize another session.
+- Historical schedule, superseded: the autonomous follow-up previously ran daily at 20:00 Asia/Shanghai through 2027-08-31. It is paused as of October 13, 2026. Daily parent review replaces autonomous study; Codex waits for explicit dispatch; this old schedule does not authorize another session.
 
 ## Local runtime and evidence
 
